@@ -5,8 +5,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="text-center max-w-3xl mx-auto">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
+        <div className="absolute inset-0 overflow-hidden rounded-2xl">
+          <Image
+            src="/bangkok.jpg"
+            alt="Background"
+            fill
+            className="object-cover opacity-10"
+            priority
+          />
+        </div>
+        <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
             You Don't Need More Ideas.<br />
             You Need Momentum.
