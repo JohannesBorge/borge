@@ -33,8 +33,8 @@ export default function Home() {
             {/* SaaS Royal */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">SaaS Royal</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Personal Accountability Coaching</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Daily check-ins, weekly strategy calls, and personalized guidance to keep you focused and shipping consistently. Perfect for founders who need structure and accountability.</p>
+              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Stay on track. Build with intention</h4>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">A personal accountability service that helps you show up, stay focused, and actually finish what you start.</p>
               <div className="mt-auto">
                 <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                   Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -45,8 +45,8 @@ export default function Home() {
             {/* Tech Assistant */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">Tech Assistant</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Technical Implementation Support</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Hands-on technical help for building and scaling your MVP. From architecture to implementation, I'll help you build a solid technical foundation.</p>
+              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Build faster. Skip the tech overwhelm.</h4>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Your personal technical sidekick. Get unstuck, ship your MVP, and stay out of the weeds.</p>
               <div className="mt-auto">
                 <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                   Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -57,8 +57,8 @@ export default function Home() {
             {/* Founder Soundboard */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">Founder Soundboard</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Strategic Decision Support</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Async voice-based idea sounding board for strategic decisions. Get instant feedback on your toughest challenges and make better decisions faster.</p>
+              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Think it through. Talk it out.</h4>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Voice-note based support with me directly. Clear mental fog, bounce ideas, and stay sharp.</p>
               <div className="mt-auto">
                 <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                   Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
