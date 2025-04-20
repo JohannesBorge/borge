@@ -91,7 +91,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-right">
-              <h2 className="text-3xl font-bold mb-6 text-text-primary">About Johannes</h2>
+              <h2 className="text-3xl font-bold mb-6 text-text-primary">Hi, I’m Johannes</h2>
               <p className="text-text-secondary mb-4">
               Solo builders move differently. I’ve been in your shoes—half-finished ideas, too many tabs open, building alone in the dark.
               </p>
