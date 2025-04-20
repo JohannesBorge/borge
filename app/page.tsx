@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
         <div className="absolute inset-0 overflow-hidden rounded-2xl">
@@ -14,7 +14,7 @@ export default function Home() {
             className="object-cover opacity-20"
             priority
           />
-          <div className="absolute inset-0 bg-background/50" />
+          <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
@@ -33,12 +33,12 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-surface">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Premium Services for Solo Founders</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* SaaS Royal */}
-            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">SaaS Royal</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Stay on track. Build with intention</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">A personal accountability service that helps you show up, stay focused, and actually finish what you start.</p>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
 
             {/* Tech Assistant */}
-            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Tech Assistant</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Build faster. Skip the tech overwhelm.</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Your personal technical sidekick. Get unstuck, ship your MVP, and stay out of the weeds.</p>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
 
             {/* Founder Soundboard */}
-            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Founder Soundboard</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Think it through. Talk it out.</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Voice-note based support with me directly. Clear mental fog, bounce ideas, and stay sharp.</p>
@@ -77,15 +77,15 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-background">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">What Founders Say</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-1">
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
               <p className="text-text-secondary italic mb-4">"Johannes helped me stay accountable and ship my product faster than I ever thought possible. His daily check-ins were exactly what I needed."</p>
               <p className="font-medium text-text-primary">- Founder Name</p>
             </div>
-            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-1">
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
               <p className="text-text-secondary italic mb-4">"The technical guidance I received was invaluable in building a solid foundation for my SaaS. Couldn't have done it without Johannes."</p>
               <p className="font-medium text-text-primary">- Founder Name</p>
             </div>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-24 bg-surface">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-right">
@@ -122,13 +122,13 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-24 bg-background">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
-                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -160,15 +160,15 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
 
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
-                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
@@ -197,15 +197,15 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
 
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
-                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
@@ -234,7 +234,7 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
