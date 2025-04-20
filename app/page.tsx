@@ -8,12 +8,13 @@ export default function Home() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
         <div className="absolute inset-0 overflow-hidden rounded-2xl">
           <Image
-            src="/bangkok.jpg"
+            src="/images/bangkok.jpg"
             alt="Background"
             fill
-            className="object-cover opacity-10"
+            className="object-cover opacity-20"
             priority
           />
+          <div className="absolute inset-0 bg-background/50" />
         </div>
         <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
