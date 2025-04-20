@@ -93,10 +93,10 @@ export default function Home() {
             <div className="animate-fade-in-right">
               <h2 className="text-3xl font-bold mb-6 text-text-primary">About Johannes</h2>
               <p className="text-text-secondary mb-4">
-                As a solo founder myself, I understand the challenges of building and scaling a SaaS business. I've helped dozens of founders turn their ideas into successful products through a combination of accountability, technical expertise, and strategic guidance.
+              Solo builders move differently. I’ve been in your shoes—half-finished ideas, too many tabs open, building alone in the dark.
               </p>
               <p className="text-text-secondary">
-                My approach is practical, direct, and focused on results. I believe in shipping fast, learning quickly, and building sustainable businesses.
+              Now, I help indie hackers move with momentum, structure, and support. Not with hype, but with real, focused help.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
