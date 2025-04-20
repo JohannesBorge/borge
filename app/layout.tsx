@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Johannes Borge | SaaS Founder & Technical Advisor',
-  description: 'Premium services for indie hackers and solo SaaS founders. Get accountability coaching, technical assistance, and strategic guidance to build your SaaS empire.',
+  title: 'Johannes Borge - SaaS Founder & Developer',
+  description: 'Helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.',
 }
 
 export default function RootLayout({

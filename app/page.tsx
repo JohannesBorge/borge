@@ -3,22 +3,22 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-900">
+    <main className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight animate-fade-in">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
             You Don't Need More Ideas.<br />
             You Need Momentum.
           </h1>
-          <p className="text-xl text-gray-300 mb-8 animate-fade-in-up">
+          <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
             I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
               Book a Free Call
             </button>
-            <button className="bg-gray-800 text-white border border-gray-700 px-8 py-3 rounded-full font-medium hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <button className="bg-surface text-text-primary border border-border px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
               Learn More
             </button>
           </div>
@@ -26,33 +26,33 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-gray-800">
+      <section className="py-24 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white animate-fade-in">Premium Services for Solo Founders</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Premium Services for Solo Founders</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* SaaS Royal */}
-            <div className="bg-gray-900 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-gray-800 group">
-              <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors duration-300">SaaS Royal</h3>
-              <p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors duration-300">Personal accountability coaching to keep you focused and shipping consistently. Daily check-ins, weekly calls, and strategic guidance.</p>
-              <button className="text-blue-400 font-medium flex items-center group-hover:text-blue-300 transition-colors duration-300">
+            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary group-hover:text-primary transition-colors duration-300">SaaS Royal</h3>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Personal accountability coaching to keep you focused and shipping consistently. Daily check-ins, weekly calls, and strategic guidance.</p>
+              <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                 Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </div>
 
             {/* Tech Assistant */}
-            <div className="bg-gray-900 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-gray-800 group">
-              <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors duration-300">Tech Assistant</h3>
-              <p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors duration-300">Hands-on technical help for building and scaling your MVP. From architecture to implementation, I've got you covered.</p>
-              <button className="text-blue-400 font-medium flex items-center group-hover:text-blue-300 transition-colors duration-300">
+            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary group-hover:text-primary transition-colors duration-300">Tech Assistant</h3>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Hands-on technical help for building and scaling your MVP. From architecture to implementation, I've got you covered.</p>
+              <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                 Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </div>
 
             {/* Founder Soundboard */}
-            <div className="bg-gray-900 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-gray-800 group">
-              <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors duration-300">Founder Soundboard</h3>
-              <p className="text-gray-400 mb-6 group-hover:text-gray-300 transition-colors duration-300">Async voice-based idea sounding board for strategic decisions. Get instant feedback on your toughest challenges.</p>
-              <button className="text-blue-400 font-medium flex items-center group-hover:text-blue-300 transition-colors duration-300">
+            <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary group-hover:text-primary transition-colors duration-300">Founder Soundboard</h3>
+              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Async voice-based idea sounding board for strategic decisions. Get instant feedback on your toughest challenges.</p>
+              <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
                 Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </div>
@@ -61,74 +61,74 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 bg-gray-900">
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white animate-fade-in">What Founders Say</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">What Founders Say</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-              <p className="text-gray-300 italic mb-4">"Johannes helped me stay accountable and ship my product faster than I ever thought possible. His daily check-ins were exactly what I needed."</p>
-              <p className="font-medium text-white">- Founder Name</p>
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-1">
+              <p className="text-text-secondary italic mb-4">"Johannes helped me stay accountable and ship my product faster than I ever thought possible. His daily check-ins were exactly what I needed."</p>
+              <p className="font-medium text-text-primary">- Founder Name</p>
             </div>
-            <div className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-              <p className="text-gray-300 italic mb-4">"The technical guidance I received was invaluable in building a solid foundation for my SaaS. Couldn't have done it without Johannes."</p>
-              <p className="font-medium text-white">- Founder Name</p>
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-1">
+              <p className="text-text-secondary italic mb-4">"The technical guidance I received was invaluable in building a solid foundation for my SaaS. Couldn't have done it without Johannes."</p>
+              <p className="font-medium text-text-primary">- Founder Name</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="py-24 bg-gray-800">
+      <section className="py-24 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-right">
-              <h2 className="text-3xl font-bold mb-6 text-white">About Johannes</h2>
-              <p className="text-gray-300 mb-4">
+              <h2 className="text-3xl font-bold mb-6 text-text-primary">About Johannes</h2>
+              <p className="text-text-secondary mb-4">
                 As a solo founder myself, I understand the challenges of building and scaling a SaaS business. I've helped dozens of founders turn their ideas into successful products through a combination of accountability, technical expertise, and strategic guidance.
               </p>
-              <p className="text-gray-300">
+              <p className="text-text-secondary">
                 My approach is practical, direct, and focused on results. I believe in shipping fast, learning quickly, and building sustainable businesses.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
               {/* Placeholder for profile image */}
-              <div className="bg-gray-700 rounded-2xl w-full h-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"></div>
+              <div className="bg-hover rounded-2xl w-full h-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"></div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Pricing Section */}
-      <section className="py-24 bg-gray-900">
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white animate-fade-in">Simple, Transparent Pricing</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
-              <h3 className="text-2xl font-bold mb-4 text-white">SaaS Royal</h3>
-              <p className="text-3xl font-bold mb-4 text-white">$299/mo</p>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
+              <p className="text-3xl font-bold mb-4 text-text-primary">$299/mo</p>
+              <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                 Get Started
               </button>
             </div>
-            <div className="bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
-              <h3 className="text-2xl font-bold mb-4 text-white">Tech Assistant</h3>
-              <p className="text-3xl font-bold mb-4 text-white">$499/mo</p>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">Tech Assistant</h3>
+              <p className="text-3xl font-bold mb-4 text-text-primary">$499/mo</p>
+              <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                 Get Started
               </button>
             </div>
-            <div className="bg-gray-800 p-8 rounded-2xl shadow-sm border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
-              <h3 className="text-2xl font-bold mb-4 text-white">Founder Soundboard</h3>
-              <p className="text-3xl font-bold mb-4 text-white">$199/mo</p>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Soundboard</h3>
+              <p className="text-3xl font-bold mb-4 text-text-primary">$199/mo</p>
+              <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                 Get Started
               </button>
             </div>
-            <div className="bg-gray-700 p-8 rounded-2xl shadow-sm border border-gray-600 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
-              <h3 className="text-2xl font-bold mb-4 text-white">All Services</h3>
-              <p className="text-3xl font-bold mb-4 text-white">$799/mo</p>
-              <p className="text-gray-300 mb-4">Save $200/month</p>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+            <div className="bg-hover p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
+              <p className="text-3xl font-bold mb-4 text-text-primary">$799/mo</p>
+              <p className="text-text-secondary mb-4">Save $200/month</p>
+              <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                 Get Started
               </button>
             </div>
@@ -137,13 +137,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-blue-900">
+      <section className="py-24 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6 animate-fade-in">Ready to Build Your SaaS?</h2>
-          <p className="text-blue-200 mb-8 max-w-2xl mx-auto animate-fade-in-up">
+          <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Ready to Build Your SaaS?</h2>
+          <p className="text-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up">
             Book a free 30-minute call to discuss your project and see how we can work together.
           </p>
-          <button className="bg-white text-blue-900 px-8 py-3 rounded-full font-medium hover:bg-blue-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          <button className="bg-text-primary text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
             Schedule a Call
           </button>
         </div>
