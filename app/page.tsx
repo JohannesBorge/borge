@@ -99,7 +99,7 @@ export default function Home() {
             <div className="relative aspect-square animate-fade-in-left">
               <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.PNG"
                   alt="Johannes Borge"
                   fill
                   className="object-cover"
