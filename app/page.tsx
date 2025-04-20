@@ -119,48 +119,154 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
-              <div className="mb-4">
-                <p className="text-2xl font-bold text-text-primary">$50/mo</p>
-                <p className="text-text-secondary">First 2 months</p>
-                <p className="text-2xl font-bold text-text-primary mt-2">$100/mo</p>
-                <p className="text-text-secondary">After 2 months</p>
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
               </div>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
+              <div className="mb-6">
+                <p className="text-2xl font-bold text-text-primary">$50/mo</p>
+                <p className="text-text-secondary text-sm">First 2 months</p>
+                <p className="text-2xl font-bold text-text-primary mt-2">$100/mo</p>
+                <p className="text-text-secondary text-sm">After 2 months</p>
+              </div>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Daily check-ins
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Weekly strategy calls
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Personalized guidance
+                </li>
+              </ul>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
+
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Tech Assistant</h3>
-              <div className="mb-4">
+              <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$499/mo</p>
               </div>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Technical implementation
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Architecture guidance
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  MVP development
+                </li>
+              </ul>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
+
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Soundboard</h3>
-              <div className="mb-4">
+              <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$199/mo</p>
               </div>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Voice-note support
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Strategic feedback
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Quick responses
+                </li>
+              </ul>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
-            <div className="bg-hover p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
-              <div className="mb-4">
-                <p className="text-2xl font-bold text-text-primary">$799/mo</p>
-                <p className="text-text-secondary mb-4">Save $200/month</p>
+
+            <div className="bg-hover p-8 rounded-2xl shadow-lg border-2 border-primary hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-primary text-text-primary px-4 py-1 rounded-full text-sm font-medium">Best Value</span>
               </div>
+              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
+              <div className="mb-6">
+                <p className="text-2xl font-bold text-text-primary">$799/mo</p>
+                <p className="text-text-secondary text-sm">Save $200/month</p>
+              </div>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  All features included
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Priority support
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Custom integration
+                </li>
+              </ul>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
