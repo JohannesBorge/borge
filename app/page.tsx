@@ -167,7 +167,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Tech Assistant</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$499/mo</p>
+                <p className="text-2xl font-bold text-text-primary">$100/mo</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
@@ -204,7 +204,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Soundboard</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$199/mo</p>
+                <p className="text-2xl font-bold text-text-primary">$50/mo</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
@@ -244,8 +244,8 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$799/mo</p>
-                <p className="text-text-secondary text-sm">Save $200/month</p>
+                <p className="text-2xl font-bold text-text-primary">$200/mo</p>
+                <p className="text-text-secondary text-sm">Save $50/month</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
