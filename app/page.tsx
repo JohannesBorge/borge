@@ -122,9 +122,9 @@ export default function Home() {
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
               <div className="mb-4">
-                <p className="text-3xl font-bold text-text-primary">$50/mo</p>
+                <p className="text-2xl font-bold text-text-primary">$50/mo</p>
                 <p className="text-text-secondary">First 2 months</p>
-                <p className="text-3xl font-bold text-text-primary mt-2">$100/mo</p>
+                <p className="text-2xl font-bold text-text-primary mt-2">$100/mo</p>
                 <p className="text-text-secondary">After 2 months</p>
               </div>
               <div className="mt-auto">
@@ -135,7 +135,9 @@ export default function Home() {
             </div>
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Tech Assistant</h3>
-              <p className="text-3xl font-bold mb-4 text-text-primary">$499/mo</p>
+              <div className="mb-4">
+                <p className="text-2xl font-bold text-text-primary">$499/mo</p>
+              </div>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
@@ -144,7 +146,9 @@ export default function Home() {
             </div>
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Soundboard</h3>
-              <p className="text-3xl font-bold mb-4 text-text-primary">$199/mo</p>
+              <div className="mb-4">
+                <p className="text-2xl font-bold text-text-primary">$199/mo</p>
+              </div>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
@@ -153,8 +157,10 @@ export default function Home() {
             </div>
             <div className="bg-hover p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
-              <p className="text-3xl font-bold mb-4 text-text-primary">$799/mo</p>
-              <p className="text-text-secondary mb-4">Save $200/month</p>
+              <div className="mb-4">
+                <p className="text-2xl font-bold text-text-primary">$799/mo</p>
+                <p className="text-text-secondary mb-4">Save $200/month</p>
+              </div>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
