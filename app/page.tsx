@@ -163,12 +163,12 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Ready to Build Your SaaS?</h2>
+          <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Let’s push your vision forward.</h2>
           <p className="text-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up">
-            Book a free 30-minute call to discuss your project and see how we can work together.
+          You don’t need more courses or communities. You need someone in your corner.
           </p>
           <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-            Schedule a Call
+          Book a discovery call
           </button>
         </div>
       </section>
