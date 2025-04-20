@@ -97,8 +97,15 @@ export default function Home() {
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
-              {/* Placeholder for profile image */}
-              <div className="bg-hover rounded-2xl w-full h-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"></div>
+              <div className="relative w-full h-full overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <Image
+                  src="/images/profile.jpg"
+                  alt="Johannes Borge"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>
