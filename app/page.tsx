@@ -15,7 +15,7 @@ export default function Home() {
             I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <button className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
               Book a Free Call
             </button>
           </div>
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* SaaS Royal */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">SaaS Royal</h3>
+              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">SaaS Royal</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Stay on track. Build with intention</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">A personal accountability service that helps you show up, stay focused, and actually finish what you start.</p>
               <div className="mt-auto">
@@ -41,7 +41,7 @@ export default function Home() {
 
             {/* Tech Assistant */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">Tech Assistant</h3>
+              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Tech Assistant</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Build faster. Skip the tech overwhelm.</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Your personal technical sidekick. Get unstuck, ship your MVP, and stay out of the weeds.</p>
               <div className="mt-auto">
@@ -53,7 +53,7 @@ export default function Home() {
 
             {/* Founder Soundboard */}
             <div className="bg-background p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-primary transition-colors duration-300">Founder Soundboard</h3>
+              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Founder Soundboard</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Think it through. Talk it out.</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Voice-note based support with me directly. Clear mental fog, bounce ideas, and stay sharp.</p>
               <div className="mt-auto">
@@ -230,12 +230,12 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-hover p-8 rounded-2xl shadow-lg border-2 border-primary hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group relative">
+            <div className="bg-teal-900/20 p-8 rounded-2xl shadow-lg border-2 border-teal-500 hover:border-teal-400 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-primary text-text-primary px-4 py-1 rounded-full text-sm font-medium">Best Value</span>
+                <span className="bg-teal-500 text-text-primary px-4 py-1 rounded-full text-sm font-medium">Best Value</span>
               </div>
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                 </svg>
               </div>
@@ -265,7 +265,7 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
@@ -281,7 +281,7 @@ export default function Home() {
           <p className="text-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up">
           You don't need more courses or communities. You need someone in your corner.
           </p>
-          <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          <button className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
           Book a discovery call
           </button>
         </div>
