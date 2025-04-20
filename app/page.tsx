@@ -11,10 +11,10 @@ export default function Home() {
             src="/images/bangkok.jpg"
             alt="Background"
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-30"
             priority
           />
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
