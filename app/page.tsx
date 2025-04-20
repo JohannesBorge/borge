@@ -91,9 +91,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-right">
-              <h2 className="text-3xl font-bold mb-6 text-text-primary">Hi, I’m Johannes Borge</h2>
+              <h2 className="text-3xl font-bold mb-6 text-text-primary">Hi, I'm Johannes Borge.</h2>
               <p className="text-text-secondary mb-4">
-              Solo builders move differently. I’ve been in your shoes—half-finished ideas, too many tabs open, building alone in the dark.
+              Solo builders move differently. I've been in your shoes—half-finished ideas, too many tabs open, building alone in the dark.
               </p>
               <p className="text-text-secondary">
               Now, I help indie hackers move with momentum, structure, and support. Not with hype, but with real, focused help.
@@ -121,7 +121,12 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-primary transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full">
               <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
-              <p className="text-3xl font-bold mb-4 text-text-primary">$299/mo</p>
+              <div className="mb-4">
+                <p className="text-3xl font-bold text-text-primary">$50/mo</p>
+                <p className="text-text-secondary">First 2 months</p>
+                <p className="text-3xl font-bold text-text-primary mt-2">$100/mo</p>
+                <p className="text-text-secondary">After 2 months</p>
+              </div>
               <div className="mt-auto">
                 <button className="w-full bg-primary text-text-primary py-3 rounded-lg hover:bg-hover transition-all duration-300 transform hover:scale-105">
                   Get Started
@@ -163,9 +168,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Let’s push your vision forward.</h2>
+          <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Let's push your vision forward.</h2>
           <p className="text-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up">
-          You don’t need more courses or communities. You need someone in your corner.
+          You don't need more courses or communities. You need someone in your corner.
           </p>
           <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
           Book a discovery call
