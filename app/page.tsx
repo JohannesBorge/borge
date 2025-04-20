@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
         <div className="absolute inset-0 overflow-hidden rounded-2xl">
@@ -14,7 +14,7 @@ export default function Home() {
             className="object-cover opacity-30"
             priority
           />
-          <div className="absolute inset-0 bg-black/40" />
+          <div className="absolute inset-0 bg-background/40" />
         </div>
         <div className="text-center max-w-3xl mx-auto relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
