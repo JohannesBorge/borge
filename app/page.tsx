@@ -100,10 +100,10 @@ export default function Home() {
             <div className="animate-fade-in-right">
               <h2 className="text-3xl font-bold mb-6 text-text-primary">Hi, I'm Johannes Borge.</h2>
               <p className="text-text-secondary mb-4">
-              Solo builders move differently. I've been in your shoes—half-finished ideas, too many tabs open, building alone in the dark.
+                I've been where you are—building alone, juggling ideas, and trying to make things work. Through my journey as a solo founder, I've learned that what we really need isn't more ideas or tools, but focused momentum and real support.
               </p>
               <p className="text-text-secondary">
-              Now, I help indie hackers move with momentum, structure, and support. Not with hype, but with real, focused help.
+                That's why I created these services. Not to add to the noise, but to give you what I wish I had: clear guidance, technical expertise, and someone who truly understands the solo founder journey. Let's build something meaningful together.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
