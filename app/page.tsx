@@ -18,9 +18,6 @@ export default function Home() {
             <button className="bg-primary text-text-primary px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
               Book a Free Call
             </button>
-            <button className="bg-surface text-text-primary border border-border px-8 py-3 rounded-full font-medium hover:bg-hover transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-              Learn More
-            </button>
           </div>
         </div>
       </section>
