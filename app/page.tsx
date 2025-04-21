@@ -82,7 +82,11 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300 flex flex-col h-full"
+                className={`bg-surface p-8 rounded-2xl border border-border transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group ${
+                  service.color === 'purple' ? 'hover:border-purple-500' :
+                  service.color === 'orange' ? 'hover:border-orange-500' :
+                  'hover:border-blue-500'
+                }`}
               >
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
