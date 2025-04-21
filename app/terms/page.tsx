@@ -48,7 +48,19 @@ export default function TermsOfService() {
               Payment for services is required in advance. All fees are non-refundable unless otherwise specified in writing.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-4">5. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">5. Limitation of Liability</h2>
+            <p>
+              By consuming our content or paying for our services, you acknowledge and agree that:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>We are not liable for any decisions you make based on our content or services</li>
+              <li>We make no guarantees about the results or outcomes of using our services</li>
+              <li>We are not responsible for any financial losses, business decisions, or personal outcomes</li>
+              <li>All services are provided "as is" without any warranties, express or implied</li>
+              <li>You use our services at your own risk and discretion</li>
+            </ul>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">6. Contact Us</h2>
             <p>
               If you have any questions about these Terms of Service, please contact us at:
               <br />
