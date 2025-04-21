@@ -154,12 +154,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">SaaS Royal</h3>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">Accountability Partner</h3>
               <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$100/mo</p>
-                <p className="text-text-secondary text-sm">First 2 months</p>
-                <p className="text-2xl font-bold text-text-primary mt-2">$100/mo</p>
-                <p className="text-text-secondary text-sm">After 2 months</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
