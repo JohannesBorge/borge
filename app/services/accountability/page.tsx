@@ -42,8 +42,7 @@ export default function AccountabilityPartner() {
                   "Task Management: Stay organized with a clear system for tracking and prioritizing your most important tasks",
                   "1-1 Weekly Calls: Get personalized advice, strategic planning, and the accountability you need",
                   "Progress Tracking: Clear metrics and milestones to measure your success",
-                  "Strategic Guidance: Expert insights to help you make better decisions",
-                  "Unlimited Support: Get help whenever you need it, not just during scheduled calls"
+                  "Strategic Guidance: Expert insights to help you make better decisions"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
