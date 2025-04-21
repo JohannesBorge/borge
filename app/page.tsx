@@ -25,14 +25,14 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
               You Don't Need More Ideas.<br />
               You Need Momentum.
-            </h1>
+          </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
-            </p>
+            I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
+          </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <button className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                Book a Free Call
-              </button>
+            Book a Free Call
+          </button>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
                   <p className="text-xl text-text-primary mb-4">{service.title}</p>
                   <p className="text-text-secondary mb-6">{service.description}</p>
-                </div>
+            </div>
                 <Link
                   href={service.href}
                   className={`inline-block text-${service.color}-500 hover:text-${service.color}-600 transition-colors duration-300 mt-auto`}
@@ -187,8 +187,8 @@ export default function Home() {
               </ul>
               <div className="mt-auto">
                 <button className="w-full bg-purple-500 text-text-primary py-3 rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105">
-                  Get Started
-                </button>
+                Get Started
+              </button>
               </div>
             </div>
 
@@ -224,8 +224,8 @@ export default function Home() {
               </ul>
               <div className="mt-auto">
                 <button className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105">
-                  Get Started
-                </button>
+                Get Started
+              </button>
               </div>
             </div>
 
@@ -261,8 +261,8 @@ export default function Home() {
               </ul>
               <div className="mt-auto">
                 <button className="w-full bg-blue-500 text-text-primary py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                  Get Started
-                </button>
+                Get Started
+              </button>
               </div>
             </div>
 
@@ -302,8 +302,8 @@ export default function Home() {
               </ul>
               <div className="mt-auto">
                 <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
-                  Get Started
-                </button>
+                Get Started
+              </button>
               </div>
             </div>
           </div>
