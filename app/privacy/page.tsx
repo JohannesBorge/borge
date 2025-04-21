@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
             <p>
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              Email: privacy@johannesborge.com
+              Email: service@johannesborge.com
             </p>
           </div>
         </motion.div>
