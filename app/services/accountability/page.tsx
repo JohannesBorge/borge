@@ -16,10 +16,11 @@ export default function AccountabilityPartner() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Accountability Partner
+              You Don't Need More Ideas.<br />
+              <span className="text-purple-500">You Need Momentum.</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              Stay on track and achieve your goals with a dedicated accountability partner who understands the challenges of building a business.
+              I give aspiring developers, SaaS founders, and CTOs the daily push, tracking, and follow-up to ship consistently — and win long-term.
             </p>
           </motion.div>
         </div>
@@ -34,15 +35,15 @@ export default function AccountabilityPartner() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h2 className="text-3xl font-bold mb-8">What You Get</h2>
+              <h2 className="text-3xl font-bold mb-8">What I Offer</h2>
               <ul className="space-y-6">
                 {[
-                  "Weekly check-in calls to review progress and set goals",
-                  "Personalized accountability strategies",
-                  "Progress tracking and milestone celebrations",
-                  "Constructive feedback and course correction",
-                  "Motivation and support during challenging times",
-                  "Actionable insights and recommendations"
+                  "Daily Follow-Ups: We check in with you every single day to keep you focused and maintain momentum",
+                  "Task Management: Stay organized with a clear system for tracking and prioritizing your most important tasks",
+                  "1-1 Weekly Calls: Get personalized advice, strategic planning, and the accountability you need",
+                  "Progress Tracking: Clear metrics and milestones to measure your success",
+                  "Strategic Guidance: Expert insights to help you make better decisions",
+                  "Unlimited Support: Get help whenever you need it, not just during scheduled calls"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
@@ -64,15 +65,15 @@ export default function AccountabilityPartner() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="bg-background p-8 rounded-2xl border border-border"
             >
-              <h3 className="text-2xl font-bold mb-6">How It Works</h3>
+              <h3 className="text-2xl font-bold mb-6">The Accountability Method</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-purple-500/10 text-purple-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Initial Consultation</h4>
-                    <p className="text-text-secondary">We'll discuss your goals, challenges, and create a personalized accountability plan.</p>
+                    <h4 className="font-semibold mb-2">Daily Check-ins</h4>
+                    <p className="text-text-secondary">Quick, focused check-ins to keep you on track and maintain momentum.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -80,8 +81,8 @@ export default function AccountabilityPartner() {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Weekly Sessions</h4>
-                    <p className="text-text-secondary">Regular check-ins to track progress, adjust goals, and provide support.</p>
+                    <h4 className="font-semibold mb-2">Weekly Strategy</h4>
+                    <p className="text-text-secondary">Deep-dive sessions to plan, review, and adjust your strategy.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -89,8 +90,8 @@ export default function AccountabilityPartner() {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Continuous Support</h4>
-                    <p className="text-text-secondary">Ongoing guidance and accountability to keep you moving forward.</p>
+                    <h4 className="font-semibold mb-2">Continuous Momentum</h4>
+                    <p className="text-text-secondary">Ongoing support and accountability to ensure consistent progress.</p>
                   </div>
                 </div>
               </div>
@@ -109,7 +110,7 @@ export default function AccountabilityPartner() {
           >
             <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Learn more about how our accountability partnership can help you achieve your goals.
+              Learn how our unique accountability system helps you stay consistent and achieve your goals.
             </p>
             <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden">
               <iframe
@@ -132,9 +133,9 @@ export default function AccountabilityPartner() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Ready to Stay Accountable?</h2>
+            <h2 className="text-3xl font-bold mb-6">Ready to Build Momentum?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Take the first step towards achieving your goals with a dedicated accountability partner.
+              Join our high-performance accountability system designed specifically for aspiring SaaS founders and developers.
             </p>
             <a
               href="/start"
