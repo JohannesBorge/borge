@@ -39,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-surface">
+      <section id="services" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -56,21 +56,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Accountability Partner",
-                description: "Stay on track with weekly check-ins and personalized accountability strategies.",
-                icon: "🎯",
+                name: "Accountability Partner",
+                title: "Stay on track with weekly check-ins and personalized accountability strategies.",
+                description: "Get dedicated support to maintain momentum and achieve your goals through regular check-ins and personalized accountability strategies.",
                 href: "/services/accountability"
               },
               {
-                title: "Tech Assistant",
-                description: "Get expert technical guidance to build and optimize your SaaS product.",
-                icon: "💻",
+                name: "Tech Assistant",
+                title: "Get expert technical guidance to build and optimize your SaaS product.",
+                description: "Receive hands-on technical support and guidance to build, optimize, and scale your SaaS product efficiently.",
                 href: "/services/tech"
               },
               {
-                title: "Founder Soundboard",
-                description: "Strategic guidance and insights from an experienced founder.",
-                icon: "🎙️",
+                name: "Founder Soundboard",
+                title: "Strategic guidance and insights from an experienced founder.",
+                description: "Leverage strategic insights and guidance from an experienced founder to navigate challenges and make informed decisions.",
                 href: "/services/soundboard"
               }
             ].map((service, index) => (
@@ -79,10 +79,10 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-background p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300"
+                className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300"
               >
-                <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+                <h3 className="text-2xl font-bold mb-4">{service.name}</h3>
+                <p className="text-xl text-text-primary mb-4">{service.title}</p>
                 <p className="text-text-secondary mb-6">{service.description}</p>
                 <Link
                   href={service.href}
