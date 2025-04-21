@@ -47,7 +47,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl font-bold mb-4">Premium Services</h2>
+            <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Services</h2>
             <p className="text-xl text-text-secondary max-w-2xl mx-auto">
               Tailored solutions to help you build and grow your SaaS business
             </p>
@@ -81,7 +81,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300"
               >
-                <h3 className="text-2xl font-bold mb-4">{service.name}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
                 <p className="text-xl text-text-primary mb-4">{service.title}</p>
                 <p className="text-text-secondary mb-6">{service.description}</p>
                 <Link
