@@ -16,10 +16,11 @@ export default function FounderSoundboard() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Founder Soundboard
+              Think it through.<br />
+              <span className="text-blue-500">Talk it out.</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              Get strategic guidance and insights from an experienced founder who understands the challenges of building and scaling a SaaS business.
+              A voice-note based service to bounce ideas, clear mental fog, and find direction—with direct access to Johannes. Like having a cofounder in your pocket.
             </p>
           </motion.div>
         </div>
@@ -37,12 +38,12 @@ export default function FounderSoundboard() {
               <h2 className="text-3xl font-bold mb-8">What You Get</h2>
               <ul className="space-y-6">
                 {[
-                  "Strategic business planning and goal setting",
-                  "Product roadmap and feature prioritization",
-                  "Growth strategy and marketing insights",
-                  "Team building and leadership guidance",
-                  "Investor relations and fundraising advice",
-                  "Work-life balance and founder wellness"
+                  "Direct access to Johannes via voice notes",
+                  "Quick responses to bounce ideas and get feedback",
+                  "Strategic guidance for your business decisions",
+                  "Mental clarity and direction for your next steps",
+                  "A sounding board for your thoughts and challenges",
+                  "Flexible communication that fits your schedule"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
@@ -64,15 +65,15 @@ export default function FounderSoundboard() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="bg-background p-8 rounded-2xl border border-border"
             >
-              <h3 className="text-2xl font-bold mb-6">How It Works</h3>
+              <h3 className="text-2xl font-bold mb-6">How We Work Together</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-blue-500/10 text-blue-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Strategy Session</h4>
-                    <p className="text-text-secondary">We'll discuss your business goals, challenges, and create a strategic roadmap.</p>
+                    <h4 className="font-semibold mb-2">Send a Voice Note</h4>
+                    <p className="text-text-secondary">Share your thoughts, questions, or challenges via voice note whenever inspiration strikes.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -80,8 +81,8 @@ export default function FounderSoundboard() {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Regular Check-ins</h4>
-                    <p className="text-text-secondary">Bi-weekly or monthly sessions to review progress and adjust strategies.</p>
+                    <h4 className="font-semibold mb-2">Get Quick Feedback</h4>
+                    <p className="text-text-secondary">Receive thoughtful responses and guidance to help you think through your ideas.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -89,8 +90,8 @@ export default function FounderSoundboard() {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Ongoing Support</h4>
-                    <p className="text-text-secondary">Continuous guidance and support as you navigate the challenges of building your business.</p>
+                    <h4 className="font-semibold mb-2">Move Forward with Clarity</h4>
+                    <p className="text-text-secondary">Take action with confidence, knowing you've thought through your decisions with an experienced founder.</p>
                   </div>
                 </div>
               </div>
@@ -132,9 +133,9 @@ export default function FounderSoundboard() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Ready to Level Up Your Business?</h2>
+            <h2 className="text-3xl font-bold mb-6">Ready to Think Through Your Next Move?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Get strategic guidance from an experienced founder to help you build and scale your SaaS business.
+              Get direct access to Johannes and bounce your ideas off an experienced founder.
             </p>
             <a
               href="/start"
