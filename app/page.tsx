@@ -6,33 +6,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function Home() {
-  const services = [
-    {
-      name: 'Accountability Partner',
-      title: 'Stay on Track',
-      description: 'Get personalized guidance and support to help you stay on track with your goals and make consistent progress.',
-      icon: '🎯',
-      color: 'purple',
-      href: '/services/accountability'
-    },
-    {
-      name: 'Tech Assistant',
-      title: 'Your Hands-On Tech Partner',
-      description: 'I don\'t just explain technology - I roll up my sleeves and help you build it. Using AI-powered tools, I\'ll work alongside you to turn your vision into reality.',
-      icon: '🤖',
-      color: 'orange',
-      href: '/services/tech'
-    },
-    {
-      name: 'Founder Soundboard',
-      title: 'Think it through. Talk it out.',
-      description: 'A voice-note based service to bounce ideas, clear mental fog, and find direction—with direct access to Johannes. Like having a cofounder in your pocket.',
-      icon: '💡',
-      color: 'blue',
-      href: '/services/soundboard'
-    }
-  ];
-
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -81,7 +54,29 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
+            {[
+              {
+                name: "Accountability Partner",
+                title: "Stay on track with weekly check-ins and personalized accountability strategies.",
+                description: "Get dedicated support to maintain momentum and achieve your goals through regular check-ins and personalized accountability strategies.",
+                href: "/services/accountability",
+                color: "purple"
+              },
+              {
+                name: "Tech Assistant",
+                title: "Get expert technical guidance to build and optimize your SaaS product.",
+                description: "Receive hands-on technical support and guidance to build, optimize, and scale your SaaS product efficiently.",
+                href: "/services/tech",
+                color: "orange"
+              },
+              {
+                name: "Founder Soundboard",
+                title: "Strategic guidance and insights from an experienced founder.",
+                description: "Leverage strategic insights and guidance from an experienced founder to navigate challenges and make informed decisions.",
+                href: "/services/soundboard",
+                color: "blue"
+              }
+            ].map((service, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -95,6 +90,7 @@ export default function Home() {
               >
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
+                  <p className="text-xl text-text-primary mb-4">{service.title}</p>
                   <p className="text-text-secondary mb-6">{service.description}</p>
             </div>
                 <Link
