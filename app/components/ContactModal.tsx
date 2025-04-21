@@ -34,7 +34,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     },
     {
       title: 'Book a meeting with me',
-      href: 'https://calendly.com/your-username',
+      href: 'https://calendar.app.google/NbgBQeMAGdMfpKYz9',
       icon: '📅'
     }
   ];
