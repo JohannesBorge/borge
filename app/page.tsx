@@ -43,7 +43,7 @@ export default function Home() {
                 onClick={() => setIsContactModalOpen(true)}
                 className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
               >
-                Book a Free Call
+                Contact me
               </button>
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function Home() {
             onClick={() => setIsContactModalOpen(true)}
             className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
           >
-            Book a discovery call
+            Contact me
           </button>
         </div>
       </section>
