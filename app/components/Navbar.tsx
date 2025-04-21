@@ -17,9 +17,18 @@ export default function Navbar() {
   ];
 
   const navItems = [
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'About', href: '#about' },
+    { name: 'Pricing', href: '/#pricing' },
+    { name: 'About', href: '/#about' },
   ];
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setIsOpen(false);
+    }
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -63,6 +72,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
+                onClick={(e) => handleScroll(e, item.href)}
                 className="text-text-secondary hover:text-teal-500 transition-colors duration-300"
               >
                 {item.name}
@@ -128,8 +138,8 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
+                onClick={(e) => handleScroll(e, item.href)}
                 className="block px-3 py-2 text-text-secondary hover:text-teal-500 transition-colors duration-300"
-                onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </Link>
