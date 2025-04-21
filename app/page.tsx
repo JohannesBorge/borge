@@ -1,5 +1,7 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
@@ -35,45 +37,59 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-24">
+      <section className="py-20 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Premium Services for Solo Founders</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* SaaS Royal */}
-            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Accountability Partner</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Stay on track. Build with intention</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">A personal accountability service that helps you show up, stay focused, and actually finish what you start.</p>
-              <div className="mt-auto">
-                <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
-                  Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-                </button>
-              </div>
-            </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl font-bold mb-4">Premium Services</h2>
+            <p className="text-xl text-text-secondary max-w-2xl mx-auto">
+              Tailored solutions to help you build and grow your SaaS business
+            </p>
+          </motion.div>
 
-            {/* Tech Assistant */}
-            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Tech Assistant</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Build faster. Skip the tech overwhelm.</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Your personal technical sidekick. Get unstuck, ship your MVP, and stay out of the weeds.</p>
-              <div className="mt-auto">
-                <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
-                  Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-                </button>
-              </div>
-            </div>
-
-            {/* Founder Soundboard */}
-            <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Founder Soundboard</h3>
-              <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Think it through. Talk it out.</h4>
-              <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">Voice-note based support with me directly. Clear mental fog, bounce ideas, and stay sharp.</p>
-              <div className="mt-auto">
-                <button className="text-primary font-medium flex items-center group-hover:text-secondary transition-colors duration-300">
-                  Learn more <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-                </button>
-              </div>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Accountability Partner",
+                description: "Stay on track with weekly check-ins and personalized accountability strategies.",
+                icon: "🎯",
+                href: "/services/accountability"
+              },
+              {
+                title: "Tech Assistant",
+                description: "Get expert technical guidance to build and optimize your SaaS product.",
+                icon: "💻",
+                href: "/services/tech"
+              },
+              {
+                title: "Founder Soundboard",
+                description: "Strategic guidance and insights from an experienced founder.",
+                icon: "🎙️",
+                href: "/services/soundboard"
+              }
+            ].map((service, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-background p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300"
+              >
+                <div className="text-4xl mb-4">{service.icon}</div>
+                <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+                <p className="text-text-secondary mb-6">{service.description}</p>
+                <Link
+                  href={service.href}
+                  className="inline-block text-teal-500 hover:text-teal-600 transition-colors duration-300"
+                >
+                  Learn more →
+                </Link>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
