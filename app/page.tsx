@@ -12,7 +12,7 @@ export default function Home() {
       <section className="py-24 relative w-full">
         <div className="absolute inset-0 overflow-hidden">
           <Image
-            src="/images/bangkok.jpg"
+            src="/images/earth.jpg"
             alt="Background"
             fill
             className="object-cover opacity-30 w-full"
