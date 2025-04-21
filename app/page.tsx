@@ -198,9 +198,12 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-purple-500 text-text-primary py-3 rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+                <button 
+                  onClick={() => setIsContactModalOpen(true)}
+                  className="w-full bg-purple-500 text-text-primary py-3 rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
 
@@ -235,9 +238,12 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+                <button 
+                  onClick={() => setIsContactModalOpen(true)}
+                  className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
 
@@ -272,9 +278,12 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-blue-500 text-text-primary py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+                <button 
+                  onClick={() => setIsContactModalOpen(true)}
+                  className="w-full bg-blue-500 text-text-primary py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
 
@@ -313,9 +322,12 @@ export default function Home() {
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
+                <button 
+                  onClick={() => setIsContactModalOpen(true)}
+                  className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105"
+                >
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
