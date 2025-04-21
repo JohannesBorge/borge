@@ -1,11 +1,19 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircleIcon } from '@heroicons/react/24/outline';
+import ContactModal from '../../components/ContactModal';
 
 export default function TechAssistant() {
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background text-text-primary">
+      <ContactModal 
+        isOpen={isContactModalOpen} 
+        onClose={() => setIsContactModalOpen(false)} 
+      />
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -136,12 +144,12 @@ export default function TechAssistant() {
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
               Let's work together to turn your business idea into reality with hands-on technical support.
             </p>
-            <a
-              href="/start"
-              className="inline-block bg-orange-500 text-text-primary px-8 py-4 rounded-lg hover:bg-orange-600 transition-colors duration-300"
+            <button
+              onClick={() => setIsContactModalOpen(true)}
+              className="bg-orange-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-orange-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             >
               Get Started
-            </a>
+            </button>
           </motion.div>
         </div>
       </section>
