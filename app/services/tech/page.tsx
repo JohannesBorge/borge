@@ -16,11 +16,11 @@ export default function TechAssistant() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Your AI-Powered<br />
-              <span className="text-orange-500">Tech Research Partner</span>
+              No Technical Background?<br />
+              <span className="text-orange-500">No Problem.</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              Get instant access to expert-level technical knowledge and research capabilities. I leverage cutting-edge AI tools to provide you with accurate, up-to-date technical guidance and solutions.
+              Whether you're a marketer, sales professional, or CEO with a great idea, I'll help you navigate the technical world. Using AI-powered tools, I make complex tech concepts simple and help you make informed decisions about your product.
             </p>
           </motion.div>
         </div>
@@ -38,11 +38,11 @@ export default function TechAssistant() {
               <h2 className="text-3xl font-bold mb-8">What I Offer</h2>
               <ul className="space-y-6">
                 {[
-                  "AI-Powered Research: Quick, accurate answers to your technical questions using Cursor AI and ChatGPT",
-                  "Technical Documentation: Clear, well-structured documentation and guides for your projects",
-                  "Code Review & Optimization: Expert analysis of your codebase with AI-assisted suggestions",
-                  "Technology Stack Guidance: Research-backed recommendations for your tech stack decisions",
-                  "Problem-Solving: Rapid research and solution-finding for technical challenges"
+                  "Tech Stack Guidance: Get clear, jargon-free advice on what technologies to use for your specific needs",
+                  "Technical Research: Quick answers to your tech questions, explained in simple terms",
+                  "Vendor Selection: Help choosing the right tools and services for your business",
+                  "Technical Documentation: Clear explanations of technical concepts and processes",
+                  "Implementation Support: Guidance on how to work with developers or implement solutions yourself"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
@@ -71,8 +71,8 @@ export default function TechAssistant() {
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Submit Your Question</h4>
-                    <p className="text-text-secondary">Share your technical challenge or research need.</p>
+                    <h4 className="font-semibold mb-2">Share Your Vision</h4>
+                    <p className="text-text-secondary">Tell me about your business idea or the technical challenge you're facing.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -80,8 +80,8 @@ export default function TechAssistant() {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">AI-Powered Research</h4>
-                    <p className="text-text-secondary">I leverage multiple AI tools to research and analyze your question.</p>
+                    <h4 className="font-semibold mb-2">Get Clear Answers</h4>
+                    <p className="text-text-secondary">I'll research and explain everything in simple, business-focused terms.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -89,8 +89,8 @@ export default function TechAssistant() {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Expert Response</h4>
-                    <p className="text-text-secondary">Receive a comprehensive, well-researched answer with actionable insights.</p>
+                    <h4 className="font-semibold mb-2">Make Confident Decisions</h4>
+                    <p className="text-text-secondary">Get the knowledge you need to make informed technical decisions for your business.</p>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function TechAssistant() {
           >
             <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              See how AI-powered technical research can accelerate your development process.
+              See how we help non-technical founders navigate the tech world with confidence.
             </p>
             <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden">
               <iframe
@@ -132,9 +132,9 @@ export default function TechAssistant() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Ready to Accelerate Your Development?</h2>
+            <h2 className="text-3xl font-bold mb-6">Ready to Build Your Tech Knowledge?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Get instant access to expert-level technical knowledge and research capabilities.
+              Get the technical guidance you need to turn your business idea into reality.
             </p>
             <a
               href="/start"
