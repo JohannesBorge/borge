@@ -14,7 +14,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
   const contactOptions = [
     {
       title: 'Send me an email',
-      href: 'mailto:johannes@johannesborge.com',
+      href: 'mailto:service@johannesborge.com',
       icon: '✉️'
     },
     {
@@ -24,7 +24,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     },
     {
       title: 'DM me on Instagram',
-      href: 'https://instagram.com/your-username',
+      href: 'https://instagram.com/johannesjborge',
       icon: '📸'
     },
     {
