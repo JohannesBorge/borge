@@ -148,9 +148,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -160,34 +160,34 @@ export default function Home() {
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Daily check-ins
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Weekly strategy calls
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Personalized guidance
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-purple-500 text-text-primary py-3 rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
             </div>
 
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
@@ -197,26 +197,26 @@ export default function Home() {
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Technical implementation
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Architecture guidance
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   MVP development
                 </li>
               </ul>
               <div className="mt-auto">
-                <button className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105">
+                <button className="w-full bg-blue-500 text-text-primary py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                   Get Started
                 </button>
               </div>
@@ -234,19 +234,19 @@ export default function Home() {
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Voice-note support
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Strategic feedback
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 mr-2 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   Quick responses

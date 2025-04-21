@@ -51,7 +51,7 @@ export default function AccountabilityPartner() {
                     transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
                     className="flex items-start"
                   >
-                    <CheckCircleIcon className="h-6 w-6 text-teal-500 mt-1 mr-3 flex-shrink-0" />
+                    <CheckCircleIcon className="h-6 w-6 text-purple-500 mt-1 mr-3 flex-shrink-0" />
                     <span className="text-text-secondary">{feature}</span>
                   </motion.li>
                 ))}
@@ -67,7 +67,7 @@ export default function AccountabilityPartner() {
               <h3 className="text-2xl font-bold mb-6">How It Works</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-teal-500/10 text-teal-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
+                  <div className="bg-purple-500/10 text-purple-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
                     1
                   </div>
                   <div>
@@ -76,7 +76,7 @@ export default function AccountabilityPartner() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-teal-500/10 text-teal-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
+                  <div className="bg-purple-500/10 text-purple-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
                     2
                   </div>
                   <div>
@@ -85,7 +85,7 @@ export default function AccountabilityPartner() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-teal-500/10 text-teal-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
+                  <div className="bg-purple-500/10 text-purple-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
                     3
                   </div>
                   <div>
@@ -138,7 +138,7 @@ export default function AccountabilityPartner() {
             </p>
             <a
               href="/start"
-              className="inline-block bg-teal-500 text-text-primary px-8 py-4 rounded-lg hover:bg-teal-600 transition-colors duration-300"
+              className="inline-block bg-purple-500 text-text-primary px-8 py-4 rounded-lg hover:bg-purple-600 transition-colors duration-300"
             >
               Get Started
             </a>
