@@ -1,13 +1,22 @@
 'use client';
 
+import { useState } from 'react';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import ContactModal from './components/ContactModal';
 
 export default function Home() {
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+
   return (
     <main className="min-h-screen bg-background">
+      <ContactModal 
+        isOpen={isContactModalOpen} 
+        onClose={() => setIsContactModalOpen(false)} 
+      />
+      
       {/* Hero Section */}
       <section className="py-24 relative w-full">
         <div className="absolute inset-0 overflow-hidden">
@@ -25,14 +34,17 @@ export default function Home() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-text-primary mb-6 leading-tight animate-fade-in">
               You Don't Need More Ideas.<br />
               You Need Momentum.
-          </h1>
+            </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-            I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
-          </p>
+              I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-              <button className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-            Book a Free Call
-          </button>
+              <button 
+                onClick={() => setIsContactModalOpen(true)}
+                className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+              >
+                Book a Free Call
+              </button>
             </div>
           </div>
         </div>
@@ -315,10 +327,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-text-primary mb-6 animate-fade-in">Let's push your vision forward.</h2>
           <p className="text-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up">
-          You don't need more courses or communities. You need someone in your corner.
+            You don't need more courses or communities. You need someone in your corner.
           </p>
-          <button className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-          Book a discovery call
+          <button 
+            onClick={() => setIsContactModalOpen(true)}
+            className="bg-teal-500 text-text-primary px-8 py-3 rounded-full font-medium hover:bg-teal-600 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          >
+            Book a discovery call
           </button>
         </div>
       </section>
