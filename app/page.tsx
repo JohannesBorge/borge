@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-24">
+      <section id="services" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Premium Services for Solo Founders</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-24">
+      <section id="about" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-right">
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-24">
+      <section id="pricing" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-4 gap-8">
