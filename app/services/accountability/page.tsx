@@ -16,11 +16,11 @@ export default function AccountabilityPartner() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              You Don't Need More Ideas.<br />
-              <span className="text-purple-500">You Need Momentum.</span>
+              Stop Building Alone.<br />
+              <span className="text-purple-500">Start Shipping Consistently.</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              I give aspiring developers, SaaS founders, and CTOs the daily push, tracking, and follow-up to ship consistently — and win long-term.
+              As a fellow indie hacker and solo founder, I understand the challenges of building alone. Let me be your accountability partner to help you maintain momentum and ship your SaaS consistently.
             </p>
           </motion.div>
         </div>
