@@ -56,23 +56,23 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Accountability Partner",
+                name: "Stay on track. Build with intention.",
                 title: "Stay on track with weekly check-ins and personalized accountability strategies.",
-                description: "Get dedicated support to maintain momentum and achieve your goals through regular check-ins and personalized accountability strategies.",
+                description: "A personal accountability service to help you show up, stay focused, and finish what you start. Weekly check-ins, structured support, and relentless follow-through.",
                 href: "/services/accountability",
                 color: "purple"
               },
               {
                 name: "Tech Assistant",
-                title: "Get expert technical guidance to build and optimize your SaaS product.",
-                description: "Receive hands-on technical support and guidance to build, optimize, and scale your SaaS product efficiently.",
+                title: "Build faster. Skip the tech overwhelm.",
+                description: "Receive hands-on technical support and guidance to build, optimize, and scale your product efficiently.",
                 href: "/services/tech",
                 color: "orange"
               },
               {
                 name: "Founder Soundboard",
-                title: "Strategic guidance and insights from an experienced founder.",
-                description: "Leverage strategic insights and guidance from an experienced founder to navigate challenges and make informed decisions.",
+                title: "Think it through. Talk it out.",
+                description: "A voice-note based service to bounce ideas, clear mental fog, and find direction—with direct access to Johannes. Like having a cofounder in your pocket.",
                 href: "/services/soundboard",
                 color: "blue"
               }
