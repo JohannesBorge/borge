@@ -19,7 +19,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     },
     {
       title: 'Message me on WhatsApp',
-      href: 'https://wa.me/your-number',
+      href: 'https://wa.me/4790411895',
       icon: '💬'
     },
     {
@@ -29,7 +29,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     },
     {
       title: 'Call me',
-      href: 'tel:+your-number',
+      href: 'tel:+4790411895',
       icon: '📞'
     },
     {
