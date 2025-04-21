@@ -56,7 +56,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Accountability Service.",
+                name: "Accountability Service",
                 title: "Stay on track with weekly check-ins.",
                 description: "A personal accountability service to help you show up, stay focused, and finish what you start.",
                 href: "/services/accountability",
