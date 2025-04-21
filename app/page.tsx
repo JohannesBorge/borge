@@ -47,8 +47,8 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Services</h2>
-            <p className="text-xl text-text-secondary max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold mb-4 text-text-primary animate-fade-in">Premium Services</h2>
+            <p className="text-xl text-text-secondary max-w-2xl mx-auto animate-fade-in-up">
               Tailored solutions to help you build and grow your SaaS business
             </p>
           </motion.div>
@@ -79,16 +79,16 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300 flex flex-col h-full"
+                className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500/50 transition-colors duration-300 flex flex-col h-full group"
               >
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
-                  <p className="text-xl text-text-primary mb-4">{service.title}</p>
-                  <p className="text-text-secondary mb-6">{service.description}</p>
+                  <h3 className="text-2xl font-bold mb-4 text-text-primary animate-fade-in-right">{service.name}</h3>
+                  <p className="text-xl text-text-primary mb-4 animate-fade-in-right">{service.title}</p>
+                  <p className="text-text-secondary mb-6 animate-fade-in-right">{service.description}</p>
                 </div>
                 <Link
                   href={service.href}
-                  className="inline-block text-teal-500 hover:text-teal-600 transition-colors duration-300 mt-auto"
+                  className="inline-block text-teal-500 hover:text-teal-600 transition-colors duration-300 mt-auto group-hover:translate-x-1"
                 >
                   Learn more →
                 </Link>
