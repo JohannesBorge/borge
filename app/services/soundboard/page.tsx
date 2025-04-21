@@ -143,7 +143,7 @@ export default function FounderSoundboard() {
           >
             <h2 className="text-3xl font-bold mb-6">Ready to Think Through Your Next Move?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Get direct access to Johannes and bounce your ideas off an experienced founder.
+              Get direct access to Johannes and bounce your ideas off an experienced man.
             </p>
             <button
               onClick={() => setIsContactModalOpen(true)}
