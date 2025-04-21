@@ -41,7 +41,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* SaaS Royal */}
             <div className="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border border-border group flex flex-col h-full">
-              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">SaaS Royal</h3>
+              <h3 className="text-2xl font-bold mb-2 text-text-primary group-hover:text-teal-500 transition-colors duration-300">Accountability Partner</h3>
               <h4 className="text-lg font-medium mb-4 text-text-secondary group-hover:text-text-primary transition-colors duration-300">Stay on track. Build with intention</h4>
               <p className="text-text-secondary mb-6 group-hover:text-text-primary transition-colors duration-300">A personal accountability service that helps you show up, stay focused, and actually finish what you start.</p>
               <div className="mt-auto">
