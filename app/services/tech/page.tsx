@@ -99,6 +99,33 @@ export default function TechAssistant() {
         </div>
       </section>
 
+      {/* VSL Section */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
+            <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
+              Discover how our technical expertise can help you build and scale your SaaS product.
+            </p>
+            <a
+              href="https://www.youtube.com/watch?v=uE8vnMGbbTw&t=1s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-teal-500 text-text-primary px-8 py-4 rounded-lg hover:bg-teal-600 transition-colors duration-300"
+            >
+              <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+              </svg>
+              Watch Video
+            </a>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
