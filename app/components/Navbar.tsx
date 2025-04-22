@@ -19,9 +19,9 @@ export default function Navbar() {
   ];
 
   const navItems = [
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'About', href: '#about' },
-    { name: 'FAQ', href: '/faq' },
+    { name: 'Pricing', href: '#pricing', isScroll: true },
+    { name: 'About', href: '#about', isScroll: true },
+    { name: 'FAQ', href: '/faq', isScroll: false },
   ];
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -86,14 +86,24 @@ export default function Navbar() {
               </div>
 
               {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  onClick={(e) => handleScroll(e, item.href)}
-                  className="text-text-secondary hover:text-teal-500 transition-colors duration-300 cursor-pointer"
-                >
-                  {item.name}
-                </a>
+                item.isScroll ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    onClick={(e) => handleScroll(e, item.href)}
+                    className="text-text-secondary hover:text-teal-500 transition-colors duration-300 cursor-pointer"
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="text-text-secondary hover:text-teal-500 transition-colors duration-300"
+                  >
+                    {item.name}
+                  </Link>
+                )
               ))}
               <button
                 onClick={() => setIsContactModalOpen(true)}
@@ -152,14 +162,25 @@ export default function Navbar() {
               </div>
 
               {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  onClick={(e) => handleScroll(e, item.href)}
-                  className="block px-3 py-2 text-text-secondary hover:text-teal-500 transition-colors duration-300 cursor-pointer"
-                >
-                  {item.name}
-                </a>
+                item.isScroll ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    onClick={(e) => handleScroll(e, item.href)}
+                    className="block px-3 py-2 text-text-secondary hover:text-teal-500 transition-colors duration-300 cursor-pointer"
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="block px-3 py-2 text-text-secondary hover:text-teal-500 transition-colors duration-300"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                )
               ))}
               <button
                 onClick={() => {
