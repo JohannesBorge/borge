@@ -61,7 +61,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Services</h2>
             <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-              Tailored solutions to help you build and grow your SaaS business
+              Tailored solutions to help you build and grow your business
             </p>
           </motion.div>
 
@@ -236,7 +236,7 @@ export default function Home() {
                   <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Vendor selection & setup
+                  Exclusive learning library
                 </li>
               </ul>
               <div className="mt-auto">
