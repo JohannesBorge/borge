@@ -49,8 +49,7 @@ export default function AccountabilityPartner() {
                   "Daily Follow-Ups: We check in with you every single day to keep you focused and maintain momentum",
                   "Task Management: Stay organized with a clear system for tracking and prioritizing your most important tasks",
                   "1-1 Weekly Calls: Get personalized advice, strategic planning, and the accountability you need",
-                  "Progress Tracking: Clear metrics and milestones to measure your success",
-                  "Strategic Guidance: Expert insights to help you make better decisions"
+                  "Progress Tracking: Clear metrics and milestones to measure your success"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
