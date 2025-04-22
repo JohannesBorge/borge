@@ -301,8 +301,9 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$350<span className="text-text-secondary">/mo</span></p>
+                <p className="text-2xl font-bold text-text-primary">$550<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
+                <p className="text-sm text-teal-500 mt-1">Save $50/month</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
