@@ -36,7 +36,7 @@ export default function Home() {
               You Need Momentum.
             </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              I'm Johannes Borge, a solo founder helping indie hackers and SaaS builders turn their ideas into reality through accountability, technical expertise, and strategic guidance.
+              For indie hackers and aspiring founders who want to build something real. I combine daily accountability, hands-on technical support, and strategic guidance to help you build momentum and move your ideas forward.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <button 
