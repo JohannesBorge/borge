@@ -28,7 +28,7 @@ export default function TechAssistant() {
               <span className="text-orange-500">Tech Partner</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              Whether you're a marketer, sales professional, or CEO with a great idea, I don't just explain tech - I roll up my sleeves and help you build it. Using AI-powered tools, I'll work alongside you to turn your vision into reality.
+              Whether you're a indie hacker, marketer, sales professional, or CEO with a great idea, I don't just explain tech - I roll up my sleeves and help you build it. Using AI-powered tools, I'll work alongside you to turn your vision into reality.
             </p>
           </motion.div>
         </div>
