@@ -49,7 +49,6 @@ export default function TechAssistant() {
                   "Hands-On Implementation: I'll help you set up and configure the right tools and technologies for your needs",
                   "Technical Research & Solutions: Quick, practical answers to your tech questions, with actual implementation support",
                   "Vendor Selection & Setup: I'll help you choose and implement the right tools and services for your business",
-                  "Documentation & Training: Clear guides and hands-on training to help you understand and use your tech stack",
                   "Ongoing Support: Regular check-ins and hands-on help to keep your tech running smoothly",
                   "Exclusive Learning Library: Access to curated resources, tutorials, and guides to help you build your technical knowledge"
                 ].map((feature, index) => (
