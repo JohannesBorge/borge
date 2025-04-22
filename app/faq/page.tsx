@@ -21,8 +21,8 @@ export default function FAQ() {
       answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, documentation and training, and ongoing technical support. I work with you to build and maintain your tech stack."
     },
     {
-      question: "How does the Founder Soundboard service work?",
-      answer: "The Founder Soundboard service allows you to send voice notes to me whenever you need to bounce ideas or get feedback. I'll provide quick responses and strategic guidance to help you make better decisions and move forward with confidence."
+      question: "How does the Founder Voice Line service work?",
+      answer: "The Founder voice line service allows you to send voice notes to me whenever you need to bounce ideas or get feedback. I'll provide quick responses and strategic guidance to help you make better decisions and move forward with confidence."
     },
     {
       question: "What's your pricing structure?",
