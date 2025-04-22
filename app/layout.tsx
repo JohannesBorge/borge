@@ -12,6 +12,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Johannes Borge - Service delivery for Indie Hackers',
   description: 'Service delivery for Indie Hackers',
+  icons: {
+    icon: '/images/profile.PNG',
+    apple: '/images/profile.PNG',
+  },
   openGraph: {
     title: 'Johannes Borge - Service delivery for Indie Hackers',
     description: 'Service delivery for Indie Hackers',
@@ -40,6 +44,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/profile.PNG" />
+        <link rel="apple-touch-icon" href="/images/profile.PNG" />
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
