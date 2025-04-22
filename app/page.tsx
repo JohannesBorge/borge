@@ -82,7 +82,7 @@ export default function Home() {
                 color: "orange"
               },
               {
-                name: "Founder Soundboard",
+                name: "Founder Voice Line",
                 title: "Think it through. Talk it out.",
                 description: "A voice-note based service to bounce ideas, clear mental fog, and find direction—with direct access to Johannes. Like having a cofounder in your pocket.",
                 href: "/services/soundboard",
@@ -255,7 +255,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Soundboard</h3>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Voice Line</h3>
               <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$100<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>

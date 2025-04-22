@@ -129,7 +129,7 @@ export default function FounderSoundboard() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="bg-surface rounded-2xl border border-blue-500 p-8 text-center"
             >
-              <h3 className="text-2xl font-bold mb-4">Founder Soundboard</h3>
+              <h3 className="text-2xl font-bold mb-4">Founder Voice Line</h3>
               <div className="text-4xl font-bold text-blue-500">$100<span className="text-xl text-text-secondary">/month</span></div>
               <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
             </motion.div>
@@ -147,7 +147,7 @@ export default function FounderSoundboard() {
           >
             <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              See how our founder soundboard service can help you make better decisions and grow your business.
+              See how our founder Voice Line service can help you make better decisions and grow your business.
             </p>
             <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden">
               <iframe
