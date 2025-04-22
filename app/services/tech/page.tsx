@@ -129,7 +129,8 @@ export default function TechAssistant() {
               className="bg-surface rounded-2xl border border-orange-500 p-8 text-center"
             >
               <h3 className="text-2xl font-bold mb-4">Tech Assistant</h3>
-              <div className="text-4xl font-bold text-orange-500">$250<span className="text-xl text-text-secondary">/month</span></div>
+              <div className="text-4xl font-bold text-orange-500">$350<span className="text-xl text-text-secondary">/month</span></div>
+              <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
             </motion.div>
           </div>
         </div>

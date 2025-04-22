@@ -130,7 +130,8 @@ export default function FounderSoundboard() {
               className="bg-surface rounded-2xl border border-blue-500 p-8 text-center"
             >
               <h3 className="text-2xl font-bold mb-4">Founder Soundboard</h3>
-              <div className="text-4xl font-bold text-blue-500">$50<span className="text-xl text-text-secondary">/month</span></div>
+              <div className="text-4xl font-bold text-blue-500">$100<span className="text-xl text-text-secondary">/month</span></div>
+              <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
             </motion.div>
           </div>
         </div>
