@@ -183,19 +183,19 @@ export default function Home() {
                   <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Daily check-ins
+                  Daily momentum check-ins
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
                   <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Weekly strategy calls
+                  Weekly strategy & planning
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
                   <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Personalized guidance
+                  Progress tracking & metrics
                 </li>
               </ul>
               <div className="mt-auto">
@@ -224,19 +224,19 @@ export default function Home() {
                   <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Technical implementation
+                  Hands-on implementation
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
                   <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Architecture guidance
+                  Technical research & solutions
                 </li>
                 <li className="flex items-center text-text-secondary text-sm">
                   <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  MVP development
+                  Vendor selection & setup
                 </li>
               </ul>
               <div className="mt-auto">
