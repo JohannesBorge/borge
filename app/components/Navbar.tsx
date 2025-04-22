@@ -21,6 +21,7 @@ export default function Navbar() {
   const navItems = [
     { name: 'Pricing', href: '#pricing' },
     { name: 'About', href: '#about' },
+    { name: 'FAQ', href: '/faq' },
   ];
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
