@@ -129,27 +129,7 @@ export default function AccountabilityPartner() {
               className="bg-surface rounded-2xl border border-purple-500 p-8 text-center"
             >
               <h3 className="text-2xl font-bold mb-4">Accountability Partner</h3>
-              <div className="text-4xl font-bold mb-6 text-purple-500">$100<span className="text-xl text-text-secondary">/month</span></div>
-              <ul className="space-y-4 mb-8">
-                {[
-                  "Daily follow-ups and check-ins",
-                  "Task management and prioritization",
-                  "1-1 weekly strategy calls",
-                  "Progress tracking and metrics",
-                  "Strategic guidance and support"
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-center justify-center">
-                    <CheckCircleIcon className="h-5 w-5 text-purple-500 mr-2" />
-                    <span className="text-text-secondary">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <button
-                onClick={() => setIsContactModalOpen(true)}
-                className="w-full bg-purple-500 text-text-primary px-6 py-3 rounded-lg font-medium hover:bg-purple-600 transition-all duration-300"
-              >
-                Get Started
-              </button>
+              <div className="text-4xl font-bold text-purple-500">$100<span className="text-xl text-text-secondary">/month</span></div>
             </motion.div>
           </div>
         </div>

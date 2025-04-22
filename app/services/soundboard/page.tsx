@@ -130,27 +130,7 @@ export default function FounderSoundboard() {
               className="bg-surface rounded-2xl border border-blue-500 p-8 text-center"
             >
               <h3 className="text-2xl font-bold mb-4">Founder Soundboard</h3>
-              <div className="text-4xl font-bold mb-6 text-blue-500">$50<span className="text-xl text-text-secondary">/month</span></div>
-              <ul className="space-y-4 mb-8">
-                {[
-                  "Direct access via voice notes",
-                  "Quick responses and feedback",
-                  "Strategic guidance",
-                  "Mental clarity and direction",
-                  "Flexible communication"
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-center justify-center">
-                    <CheckCircleIcon className="h-5 w-5 text-blue-500 mr-2" />
-                    <span className="text-text-secondary">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <button
-                onClick={() => setIsContactModalOpen(true)}
-                className="w-full bg-blue-500 text-text-primary px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition-all duration-300"
-              >
-                Get Started
-              </button>
+              <div className="text-4xl font-bold text-blue-500">$50<span className="text-xl text-text-secondary">/month</span></div>
             </motion.div>
           </div>
         </div>

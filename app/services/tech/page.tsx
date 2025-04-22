@@ -129,27 +129,7 @@ export default function TechAssistant() {
               className="bg-surface rounded-2xl border border-orange-500 p-8 text-center"
             >
               <h3 className="text-2xl font-bold mb-4">Tech Assistant</h3>
-              <div className="text-4xl font-bold mb-6 text-orange-500">$250<span className="text-xl text-text-secondary">/month</span></div>
-              <ul className="space-y-4 mb-8">
-                {[
-                  "Hands-on implementation support",
-                  "Technical research & solutions",
-                  "Vendor selection & setup",
-                  "Documentation & training",
-                  "Ongoing technical support"
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-center justify-center">
-                    <CheckCircleIcon className="h-5 w-5 text-orange-500 mr-2" />
-                    <span className="text-text-secondary">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <button
-                onClick={() => setIsContactModalOpen(true)}
-                className="w-full bg-orange-500 text-text-primary px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition-all duration-300"
-              >
-                Get Started
-              </button>
+              <div className="text-4xl font-bold text-orange-500">$250<span className="text-xl text-text-secondary">/month</span></div>
             </motion.div>
           </div>
         </div>
