@@ -26,7 +26,7 @@ export default function FAQ() {
     },
     {
       question: "What's your pricing structure?",
-      answer: "I offer transparent pricing: Accountability Partner at $100/month, Tech Assistant at $250/month, Founder Soundboard at $50/month, and All Services combined at $350/month (saving you $50/month)."
+      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, Founder Voice Line at $100/month, and All Services combined at $350/month (saving you $50/month)."
     },
     {
       question: "How do I get started?",
