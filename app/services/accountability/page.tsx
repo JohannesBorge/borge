@@ -107,6 +107,54 @@ export default function AccountabilityPartner() {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl font-bold mb-4">Simple, Transparent Pricing</h2>
+            <p className="text-xl text-text-secondary max-w-2xl mx-auto">
+              Get the accountability and support you need to build momentum and achieve your goals.
+            </p>
+          </motion.div>
+          <div className="max-w-md mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="bg-surface rounded-2xl border border-purple-500 p-8 text-center"
+            >
+              <h3 className="text-2xl font-bold mb-4">Accountability Partner</h3>
+              <div className="text-4xl font-bold mb-6 text-purple-500">$100<span className="text-xl text-text-secondary">/month</span></div>
+              <ul className="space-y-4 mb-8">
+                {[
+                  "Daily follow-ups and check-ins",
+                  "Task management and prioritization",
+                  "1-1 weekly strategy calls",
+                  "Progress tracking and metrics",
+                  "Strategic guidance and support"
+                ].map((feature, index) => (
+                  <li key={index} className="flex items-center justify-center">
+                    <CheckCircleIcon className="h-5 w-5 text-purple-500 mr-2" />
+                    <span className="text-text-secondary">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <button
+                onClick={() => setIsContactModalOpen(true)}
+                className="w-full bg-purple-500 text-text-primary px-6 py-3 rounded-lg font-medium hover:bg-purple-600 transition-all duration-300"
+              >
+                Get Started
+              </button>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* VSL Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
