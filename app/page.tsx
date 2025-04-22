@@ -36,7 +36,7 @@ export default function Home() {
               You Need Momentum.
             </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              For indie hackers and aspiring founders who want to build something real. I combine daily accountability, hands-on technical support, and strategic guidance to help you build momentum and move your ideas forward.
+              For indie hackers and aspiring founders who want to build something real. I combine daily accountability, hands-on technical support, and strategic guidance to help you build momentum.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <button 
@@ -144,7 +144,7 @@ export default function Home() {
                 I've been where you are—building alone, juggling ideas, and trying to make things work. Through my journey as a solo founder, I've learned that what we really need isn't more ideas or tools, but focused momentum and real support.
               </p>
               <p className="text-text-secondary">
-                That's why I created these services. Not to add to the noise, but to give you what I wish I had: clear guidance, technical expertise, and someone who truly understands the solo founder journey. Let's build something meaningful together.
+                That's why I created these services. Not to add to the noise, but to give you what I wish I had: clear guidance, technical know-how, and someone who truly understands the solo founder journey. Let's build something meaningful together.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
