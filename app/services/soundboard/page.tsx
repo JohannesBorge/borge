@@ -99,7 +99,7 @@ export default function FounderSoundboard() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Move Forward with Clarity</h4>
-                    <p className="text-text-secondary">Take action with confidence, knowing you've thought through your decisions with an experienced founder.</p>
+                    <p className="text-text-secondary">Take action with confidence, knowing you've thought through your decisions with an experienced man.</p>
                   </div>
                 </div>
               </div>
