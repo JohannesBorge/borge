@@ -17,10 +17,11 @@ export const metadata: Metadata = {
     description: 'Service delivery for Indie Hackers',
     images: [
       {
-        url: '/images/profile.PNG',
+        url: 'https://johannesborge.com/images/profile.PNG',
         width: 1200,
         height: 630,
         alt: 'Johannes Borge',
+        type: 'image/png',
       },
     ],
   },
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Johannes Borge - Service delivery for Indie Hackers',
     description: 'Service delivery for Indie Hackers',
-    images: ['/images/profile.PNG'],
+    images: ['https://johannesborge.com/images/profile.PNG'],
   },
 }
 
