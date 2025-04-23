@@ -28,7 +28,6 @@ export default function TermsOfService() {
               We provide various services including but not limited to:
             </p>
             <ul className="list-disc pl-6">
-              <li>Founder Soundboard</li>
               <li>Tech Assistant</li>
               <li>Accountability Partner</li>
             </ul>

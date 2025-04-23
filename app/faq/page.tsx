@@ -10,7 +10,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "I offer three main services: Accountability Partner for daily check-ins and progress tracking, Tech Assistant for hands-on technical support, and Founder Soundboard for strategic guidance and idea bouncing. You can also get all services combined for the best value."
+      answer: "I offer two main services: Accountability Partner for daily check-ins and progress tracking, and Tech Assistant for hands-on technical support. You can also get all services combined for the best value."
     },
     {
       question: "How does the Accountability Partner service work?",
@@ -18,15 +18,11 @@ export default function FAQ() {
     },
     {
       question: "What kind of technical support do you provide?",
-      answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, documentation and training, and ongoing technical support. I work with you to build and maintain your tech stack."
-    },
-    {
-      question: "How does the Founder voice line service work?",
-      answer: "The Founder voice line service allows you to send voice notes to me whenever you need to bounce ideas or get feedback. I'll provide quick responses and strategic guidance to help you make better decisions and move forward with confidence."
+      answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, and ongoing technical support. I work with you to build and maintain your tech stack."
     },
     {
       question: "What's your pricing structure?",
-      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, Founder Voice Line at $100/month, and All Services combined at $350/month (saving you $50/month)."
+      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, and All Services combined at $500/month (saving you $50/month)."
     },
     {
       question: "How do I get started?",

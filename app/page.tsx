@@ -242,47 +242,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-500/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">Founder Voice Line</h3>
-              <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$100<span className="text-text-secondary">/mo</span></p>
-                <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
-              </div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Voice-note support
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Strategic feedback
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Quick responses
-                </li>
-              </ul>
-              <div className="mt-auto">
-                <button 
-                  onClick={() => setIsContactModalOpen(true)}
-                  className="w-full bg-blue-500 text-text-primary py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-
             <div className="bg-teal-900/20 p-8 rounded-2xl shadow-lg border-2 border-teal-500 hover:border-teal-400 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group relative">
               <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                 <span className="bg-teal-500 text-text-primary px-4 py-1 rounded-full text-sm font-medium">Best Value</span>
@@ -294,7 +253,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$550<span className="text-text-secondary">/mo</span></p>
+                <p className="text-2xl font-bold text-text-primary">$500<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
                 <p className="text-sm text-teal-500 mt-1">Save $50/month</p>
               </div>
