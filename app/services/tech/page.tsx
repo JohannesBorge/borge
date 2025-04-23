@@ -28,7 +28,7 @@ export default function TechAssistant() {
               <span className="text-orange-500">Tech Partner</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              For experienced entrepreneurs transitioning to online business, I don't just explain tech - I roll up my sleeves and help you build it. Using AI-powered tools, I'll work alongside you to establish your digital presence with confidence.
+              For entrepreneurs transitioning to online business, I don't just explain tech - I roll up my sleeves and help you build it. Using AI-powered tools, I'll work alongside you to establish your digital presence with confidence.
             </p>
           </motion.div>
         </div>
@@ -49,8 +49,7 @@ export default function TechAssistant() {
                   "Hands-On Implementation: I'll help you set up and configure the right tools and technologies for your needs",
                   "Technical Research & Solutions: Quick, practical answers to your tech questions, with actual implementation support",
                   "Vendor Selection & Setup: I'll help you choose and implement the right tools and services for your business",
-                  "Ongoing Support: Regular check-ins and hands-on help to keep your tech running smoothly",
-                  "Exclusive Learning Library: Access to curated resources, tutorials, and guides to help you build your technical knowledge"
+                  "Ongoing Support: Regular check-ins and hands-on help to keep your tech running smoothly"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
