@@ -10,14 +10,14 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Johannes Borge - Service delivery for Indie Hackers',
+  title: 'Johannes Borge - Build your online business',
   description: 'Build your online business',
   icons: {
     icon: '/images/profile.PNG',
     apple: '/images/profile.PNG',
   },
   openGraph: {
-    title: 'Johannes Borge - Service delivery for Indie Hackers',
+    title: 'Johannes Borge - Build your online business',
     description: 'Build your online business',
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Johannes Borge - Service delivery for Indie Hackers',
+    title: 'Johannes Borge - Build your online business',
     description: 'Build your online business',
     images: ['https://johannesborge.com/images/profile.PNG'],
   },
