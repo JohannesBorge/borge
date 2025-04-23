@@ -61,7 +61,7 @@ export default function Home() {
           >
             <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Services</h2>
             <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-              Tailored solutions to help you build and grow your business
+              Tailored solutions to help you build and grow your business. Start with a 2-week free trial, no credit card required.
             </p>
           </motion.div>
 
@@ -170,6 +170,7 @@ export default function Home() {
               <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$150<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
+                <p className="text-sm text-purple-500 mt-1">2-week free trial, no credit card required</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
@@ -211,6 +212,7 @@ export default function Home() {
               <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$350<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
+                <p className="text-sm text-orange-500 mt-1">2-week free trial, no credit card required</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">
@@ -256,6 +258,7 @@ export default function Home() {
                 <p className="text-2xl font-bold text-text-primary">$450<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
                 <p className="text-sm text-teal-500 mt-1">Save $50/month</p>
+                <p className="text-sm text-teal-500 mt-1">2-week free trial, no credit card required</p>
               </div>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center text-text-secondary text-sm">

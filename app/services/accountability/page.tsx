@@ -130,6 +130,7 @@ export default function AccountabilityPartner() {
               <h3 className="text-2xl font-bold mb-4">Accountability Partner</h3>
               <div className="text-4xl font-bold text-purple-500">$150<span className="text-xl text-text-secondary">/month</span></div>
               <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
+              <p className="text-sm text-purple-500 mt-1">2-week free trial, no credit card required</p>
             </motion.div>
           </div>
         </div>
