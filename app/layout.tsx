@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Build your online business',
     images: [
       {
-        url: 'https://johannesborge.com/images/profile.PNG',
+        url: 'https://johannesborge.com/images/profile.PNG?v=2',
         width: 1200,
         height: 630,
         alt: 'Johannes Borge',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Johannes Borge - Build your online business',
     description: 'Build your online business',
-    images: ['https://johannesborge.com/images/profile.PNG'],
+    images: ['https://johannesborge.com/images/profile.PNG?v=2'],
   },
 }
 
