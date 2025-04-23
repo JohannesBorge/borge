@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
                 name: "Accountability Service",
@@ -159,7 +159,7 @@ export default function Home() {
       <section id="pricing" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
               <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-500/30 transition-colors duration-300">
                 <svg className="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -253,7 +253,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
               <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$500<span className="text-text-secondary">/mo</span></p>
+                <p className="text-2xl font-bold text-text-primary">$450<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
                 <p className="text-sm text-teal-500 mt-1">Save $50/month</p>
               </div>
