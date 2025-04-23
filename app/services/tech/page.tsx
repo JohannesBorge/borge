@@ -169,7 +169,7 @@ export default function TechAssistant() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Ready to Build Your Tech Stack?</h2>
+            <h2 className="text-3xl font-bold mb-6">Ready to Build Your Online Business?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
               Let's work together to turn your business idea into reality with hands-on technical support.
             </p>
