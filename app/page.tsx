@@ -77,7 +77,7 @@ export default function Home() {
               {
                 name: "Tech Assistant",
                 title: "Build faster. Skip the tech overwhelm.",
-                description: "Receive hands-on technical support and guidance to build, optimize, and scale your product efficiently.",
+                description: "Receive hands-on technical support and guidance to build, optimize, and scale your online business efficiently.",
                 href: "/services/tech",
                 color: "orange"
               }
