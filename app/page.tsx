@@ -115,25 +115,6 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Why Choose Me</h2>
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Tech Assistant Cards */}
-            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-text-primary mb-2">Hands-On Implementation</h3>
-              <p className="text-text-secondary">Unlike traditional consulting, I roll up my sleeves and help you build. You get practical support, not just advice.</p>
-            </div>
-            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-1">
-              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-text-primary mb-2">AI-Powered Support</h3>
-              <p className="text-text-secondary">Leverage cutting-edge AI tools to build faster and smarter. I'll help you implement and optimize these technologies for your business.</p>
-            </div>
             {/* Accountability Partner Cards */}
             <div className="bg-surface p-8 rounded-2xl border border-border hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-1">
               <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4">
@@ -152,6 +133,25 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-text-primary mb-2">Progress Tracking</h3>
               <p className="text-text-secondary">Clear metrics and milestones to measure your success. I'll help you track progress and celebrate wins along the way.</p>
+            </div>
+            {/* Tech Assistant Cards */}
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-text-primary mb-2">Hands-On Implementation</h3>
+              <p className="text-text-secondary">Unlike traditional consulting, I roll up my sleeves and help you build. You get practical support, not just advice.</p>
+            </div>
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-text-primary mb-2">AI-Powered Support</h3>
+              <p className="text-text-secondary">Leverage cutting-edge AI tools to build faster and smarter. I'll help you implement and optimize these technologies for your business.</p>
             </div>
           </div>
         </div>
