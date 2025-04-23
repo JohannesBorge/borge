@@ -171,7 +171,7 @@ export default function AccountabilityPartner() {
           >
             <h2 className="text-3xl font-bold mb-6">Ready to Build Momentum?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Join our high-performance accountability system designed specifically for aspiring entrepreneurs transitioning to online business.
+              Join our high-performance accountability system designed specifically for entrepreneurs transitioning to online business.
             </p>
             <button
               onClick={() => setIsContactModalOpen(true)}
