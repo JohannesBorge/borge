@@ -117,10 +117,10 @@ export default function Home() {
             <div className="animate-fade-in-right">
               <h2 className="text-3xl font-bold mb-6 text-text-primary">Hi, I'm Johannes Borge.</h2>
               <p className="text-text-secondary mb-4">
-                I've been where you are—building alone, juggling ideas, and trying to make things work. Through my journey as a solo founder, I've learned that what we really need isn't more ideas or tools, but focused momentum and real support.
+                I've been where you are—transitioning to online business, juggling ideas, and trying to make things work. Through my journey as a solo founder, I've learned that what we really need isn't more ideas or tools, but focused momentum and real support.
               </p>
               <p className="text-text-secondary">
-                That's why I created these services. Not to add to the noise, but to give you what I wish I had: clear guidance, technical know-how, and someone who truly understands the solo founder journey. Let's build something meaningful together.
+                That's why I created these services. Not to add to the noise, but to give you what I wish I had: clear guidance, technical know-how, and someone who truly understands the journey of building an online business. Let's build something meaningful together.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
