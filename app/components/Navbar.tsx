@@ -14,8 +14,7 @@ export default function Navbar() {
 
   const services = [
     { name: 'Accountability Partner', href: '/services/accountability' },
-    { name: 'Tech Assistant', href: '/services/tech' },
-    { name: 'Founder Voice Line', href: '/services/soundboard' },
+    { name: 'Tech Assistant', href: '/services/tech' }
   ];
 
   const navItems = [

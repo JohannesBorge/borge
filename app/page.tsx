@@ -80,13 +80,6 @@ export default function Home() {
                 description: "Receive hands-on technical support and guidance to build, optimize, and scale your product efficiently.",
                 href: "/services/tech",
                 color: "orange"
-              },
-              {
-                name: "Founder Voice Line",
-                title: "Think it through. Talk it out.",
-                description: "A voice-note based service to bounce ideas, clear mental fog, and find direction—with direct access to Johannes. Like having a cofounder in your pocket.",
-                href: "/services/soundboard",
-                color: "blue"
               }
             ].map((service, index) => (
               <motion.div
