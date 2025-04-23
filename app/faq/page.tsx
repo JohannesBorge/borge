@@ -10,19 +10,19 @@ export default function FAQ() {
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "I offer two main services: Accountability Partner for daily check-ins and progress tracking, and Tech Assistant for hands-on technical support. You can also get all services combined for the best value."
+      answer: "I offer two main services: Accountability Partner for daily check-ins and progress tracking, and Tech Assistant for hands-on technical support. You can also get all services combined for the best value at $450/month."
     },
     {
       question: "How does the Accountability Partner service work?",
-      answer: "The Accountability Partner service includes daily check-ins, weekly strategy calls, and personalized guidance to help you stay on track with your goals. We'll work together to maintain momentum and ensure consistent progress."
+      answer: "The Accountability Partner service includes daily follow-ups, task management, 1-1 weekly calls, and progress tracking. We'll work together to maintain momentum and ensure consistent progress in building your business."
     },
     {
       question: "What kind of technical support do you provide?",
-      answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, and ongoing technical support. I work with you to build and maintain your tech stack."
+      answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, and ongoing technical support. I work with you to build and maintain your tech stack using AI-powered tools."
     },
     {
       question: "What's your pricing structure?",
-      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, and All Services combined at $500/month (saving you $50/month)."
+      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, and All Services combined at $450/month (saving you $50/month). All plans include a 2-week free trial with no credit card required."
     },
     {
       question: "How do I get started?",
@@ -35,6 +35,18 @@ export default function FAQ() {
     {
       question: "Can I switch between services?",
       answer: "Yes, you can switch between services or upgrade to the All Services package at any time. Just let me know, and we'll adjust your subscription accordingly."
+    },
+    {
+      question: "What makes your services different?",
+      answer: "Unlike traditional consulting, I provide hands-on implementation support and daily accountability. I work alongside you to build your business, not just give advice. My services are specifically designed for entrepreneurs transitioning to online business."
+    },
+    {
+      question: "Do you offer refunds?",
+      answer: "All fees are non-refundable unless otherwise specified in writing. However, we offer a 2-week free trial with no credit card required so you can evaluate if the service is right for you before committing."
+    },
+    {
+      question: "What kind of businesses do you work with?",
+      answer: "I specialize in working with entrepreneurs who are transitioning to online business. Whether you're building a product, service, or digital presence, I can help you establish and grow your online business with confidence."
     }
   ];
 
