@@ -144,7 +144,7 @@ export default function AccountabilityPartner() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
+            <h2 className="text-3xl font-bold mb-6">Watch Our Video</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
               Learn how our unique accountability system helps you stay consistent and achieve your goals.
             </p>

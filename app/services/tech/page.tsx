@@ -144,9 +144,9 @@ export default function TechAssistant() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold mb-6">Watch Our VSL</h2>
+            <h2 className="text-3xl font-bold mb-6">Watch Our Video</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              See how we help non-technical founders build their tech stack with hands-on support.
+              See how we help entrepreneurs build their product/service with hands-on support.
             </p>
             <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden">
               <iframe
