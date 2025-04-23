@@ -28,7 +28,7 @@ export default function AccountabilityPartner() {
               <span className="text-purple-500">Start Shipping Consistently.</span>
             </h1>
             <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-              As a fellow indie hacker and solo founder, I understand the challenges of building alone. Let me be your accountability partner to help you maintain momentum and ship your SaaS consistently.
+              As a fellow indie hacker and solo founder, I understand the challenges of building alone. Let me be your accountability partner to help you maintain momentum and ship your product/service consistently.
             </p>
           </motion.div>
         </div>
@@ -171,7 +171,7 @@ export default function AccountabilityPartner() {
           >
             <h2 className="text-3xl font-bold mb-6">Ready to Build Momentum?</h2>
             <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
-              Join our high-performance accountability system designed specifically for aspiring SaaS founders and developers.
+              Join our high-performance accountability system designed specifically for aspiring entrepreneurs transitioning to online business.
             </p>
             <button
               onClick={() => setIsContactModalOpen(true)}
