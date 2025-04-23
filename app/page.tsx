@@ -121,7 +121,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Hands-On Implementation</h3>
+              <h3 className="text-2xl font-bold text-text-primary mb-2">Hands-On Implementation</h3>
               <p className="text-text-secondary">Unlike traditional consulting, I roll up my sleeves and help you build. You get practical support, not just advice.</p>
             </div>
             <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
@@ -130,8 +130,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Daily Accountability</h3>
-              <p className="text-text-secondary">Stay focused and maintain momentum with daily check-ins and weekly strategy sessions.</p>
+              <h3 className="text-2xl font-bold text-text-primary mb-2">AI-Powered Support</h3>
+              <p className="text-text-secondary">Leverage cutting-edge AI tools to build faster and smarter. I'll help you implement and optimize these technologies for your business.</p>
             </div>
           </div>
         </div>
