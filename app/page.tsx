@@ -113,7 +113,7 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Why Choose Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Why Choose Me</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
               <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4">
