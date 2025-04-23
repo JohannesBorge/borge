@@ -110,18 +110,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Success Metrics Section */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">What Founders Say</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Real Results for Entrepreneurs</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
-              <p className="text-text-secondary italic mb-4">"Johannes helped me stay accountable and ship my product faster than I ever thought possible. His daily check-ins were exactly what I needed."</p>
-              <p className="font-medium text-text-primary">- Founder Name</p>
+              <div className="text-4xl font-bold text-teal-500 mb-4">3x</div>
+              <h3 className="text-xl font-semibold mb-2">Faster Product Launch</h3>
+              <p className="text-text-secondary">Average time to market for entrepreneurs using our accountability and tech support services.</p>
             </div>
             <div className="bg-surface p-8 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-1">
-              <p className="text-text-secondary italic mb-4">"The technical guidance I received was invaluable in building a solid foundation for my SaaS. Couldn't have done it without Johannes."</p>
-              <p className="font-medium text-text-primary">- Founder Name</p>
+              <div className="text-4xl font-bold text-teal-500 mb-4">85%</div>
+              <h3 className="text-xl font-semibold mb-2">Success Rate</h3>
+              <p className="text-text-secondary">Of entrepreneurs who maintain consistent progress with our accountability system.</p>
             </div>
           </div>
         </div>
