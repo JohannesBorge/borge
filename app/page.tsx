@@ -111,24 +111,20 @@ export default function Home() {
       </section>
 
       {/* Pilot Customers Section */}
-      <section className="py-24 bg-surface">
+      <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-text-primary animate-fade-in">Limited Pilot Program</h2>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
               I'm currently accepting 10 pilot customers to help shape and refine these services. As a pilot customer, you'll get:
             </p>
-            <div className="grid md:grid-cols-3 gap-8 mt-12">
-              <div className="bg-background p-6 rounded-2xl border border-border">
-                <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                  <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold mb-2 text-text-primary">Priority Access</h3>
-                <p className="text-text-secondary">Get immediate access to all services and direct communication channels.</p>
-              </div>
-              <div className="bg-background p-6 rounded-2xl border border-border">
+            <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-2xl mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="bg-surface p-6 rounded-2xl border border-border"
+              >
                 <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
                   <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -136,8 +132,13 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-text-primary">Influence Development</h3>
                 <p className="text-text-secondary">Help shape the future of these services with your feedback and needs.</p>
-              </div>
-              <div className="bg-background p-6 rounded-2xl border border-border">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+                className="bg-surface p-6 rounded-2xl border border-border"
+              >
                 <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto">
                   <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -145,7 +146,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-text-primary">Special Pricing</h3>
                 <p className="text-text-secondary">Lock in introductory pricing for the duration of your pilot program.</p>
-              </div>
+              </motion.div>
             </div>
             <div className="mt-12">
               <button 
