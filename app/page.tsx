@@ -36,7 +36,7 @@ export default function Home() {
               You Need Momentum.
             </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              For indie hackers and aspiring founders who want to build something real. I combine daily accountability, hands-on technical support, and strategic guidance to help you build momentum.
+              For experienced entrepreneurs transitioning to online business. I combine daily accountability and hands-on technical support to help you build your digital presence with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <button 
