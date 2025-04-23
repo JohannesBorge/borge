@@ -146,7 +146,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-text-primary">Special Pricing</h3>
                 <p className="text-text-secondary">Lock in introductory pricing for the duration of your pilot program.</p>
-                <p className="text-sm text-teal-500 mt-2">14-day free trial, no credit card required</p>
+                <p className="text-sm text-teal-500 mt-2">2-week free trial, no credit card required</p>
               </motion.div>
             </div>
             <div className="mt-12">
