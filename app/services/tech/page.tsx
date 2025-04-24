@@ -47,8 +47,6 @@ export default function TechAssistant() {
               <ul className="space-y-6">
                 {[
                   "AI-Powered Implementation: I'll help you set up and configure AI tools and technologies for your business needs",
-                  "Technical Research & Solutions: Quick, practical answers to your tech questions, with AI-enhanced implementation support",
-                  "AI Tool Selection & Setup: I'll help you choose and implement the right AI tools and services for your business",
                   "Ongoing AI Support: Regular check-ins and hands-on help to keep your AI tools running smoothly",
                   "AI Learning & Training: Guidance on how to effectively use AI tools to maximize your business potential"
                 ].map((feature, index) => (
