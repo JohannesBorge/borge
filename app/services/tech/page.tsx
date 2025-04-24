@@ -71,33 +71,50 @@ export default function TechAssistant() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="bg-background p-8 rounded-2xl border border-border"
             >
-              <h3 className="text-2xl font-bold mb-6">How We Work Together</h3>
+              <h3 className="text-2xl font-bold mb-6">Projects I Can Help With</h3>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-orange-500/10 text-orange-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
-                    1
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Share Your Vision</h4>
-                    <p className="text-text-secondary">Tell me about your business idea or the technical challenge you're facing.</p>
+                    <h4 className="font-semibold mb-2">Website Development</h4>
+                    <p className="text-text-secondary">Building and optimizing websites, landing pages, and e-commerce platforms.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="bg-orange-500/10 text-orange-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
-                    2
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                    </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Collaborative Solution</h4>
-                    <p className="text-text-secondary">I'll work with you to implement the right solution, explaining everything in simple terms.</p>
+                    <h4 className="font-semibold mb-2">AI Integration</h4>
+                    <p className="text-text-secondary">Implementing AI tools and automation to streamline your business processes.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="bg-orange-500/10 text-orange-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
-                    3
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Hands-On Support</h4>
-                    <p className="text-text-secondary">Get ongoing, practical help to keep your tech stack running smoothly.</p>
+                    <h4 className="font-semibold mb-2">Digital Marketing Setup</h4>
+                    <p className="text-text-secondary">Setting up analytics, tracking, and marketing automation tools.</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="bg-orange-500/10 text-orange-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">Tech Stack Optimization</h4>
+                    <p className="text-text-secondary">Reviewing and optimizing your existing tech stack for better performance.</p>
                   </div>
                 </div>
               </div>
