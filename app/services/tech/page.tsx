@@ -81,7 +81,7 @@ export default function TechAssistant() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Website Development</h4>
-                    <p className="text-text-secondary">Building and optimizing websites, landing pages, and e-commerce platforms.</p>
+                    <p className="text-text-secondary">Building and optimizing websites and landing pages.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
