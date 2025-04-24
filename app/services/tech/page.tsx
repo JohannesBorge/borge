@@ -106,17 +106,6 @@ export default function TechAssistant() {
                     <p className="text-text-secondary">Setting up analytics, tracking, and marketing automation tools.</p>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <div className="bg-orange-500/10 text-orange-500 rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">Tech Stack Optimization</h4>
-                    <p className="text-text-secondary">Reviewing and optimizing your existing tech stack for better performance.</p>
-                  </div>
-                </div>
               </div>
             </motion.div>
           </div>
