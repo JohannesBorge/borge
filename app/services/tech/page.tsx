@@ -46,10 +46,11 @@ export default function TechAssistant() {
               <h2 className="text-3xl font-bold mb-8">What I Do For You</h2>
               <ul className="space-y-6">
                 {[
-                  "Hands-On Implementation: I'll help you set up and configure the right tools and technologies for your needs",
-                  "Technical Research & Solutions: Quick, practical answers to your tech questions, with actual implementation support",
-                  "Vendor Selection & Setup: I'll help you choose and implement the right tools and services for your business",
-                  "Ongoing Support: Regular check-ins and hands-on help to keep your tech running smoothly"
+                  "AI-Powered Implementation: I'll help you set up and configure AI tools and technologies for your business needs",
+                  "Technical Research & Solutions: Quick, practical answers to your tech questions, with AI-enhanced implementation support",
+                  "AI Tool Selection & Setup: I'll help you choose and implement the right AI tools and services for your business",
+                  "Ongoing AI Support: Regular check-ins and hands-on help to keep your AI tools running smoothly",
+                  "AI Learning & Training: Guidance on how to effectively use AI tools to maximize your business potential"
                 ].map((feature, index) => (
                   <motion.li
                     key={index}
