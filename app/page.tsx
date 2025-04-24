@@ -68,13 +68,6 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
-                name: "Accountability Service",
-                title: "Stay on track with weekly check-ins.",
-                description: "A personal accountability service to help you show up, stay focused, and finish what you start.",
-                href: "/services/accountability",
-                color: "purple"
-              },
-              {
                 name: "Tech Assistant",
                 title: "Build faster. Skip the tech overwhelm.",
                 description: "Receive hands-on technical support and guidance to build, optimize, and scale your online business efficiently.",
@@ -97,7 +90,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold mb-4 text-text-primary">{service.name}</h3>
                   <p className="text-xl text-text-primary mb-4">{service.title}</p>
                   <p className="text-text-secondary mb-6">{service.description}</p>
-            </div>
+                </div>
                 <Link
                   href={service.href}
                   className={`inline-block text-${service.color}-500 hover:text-${service.color}-600 transition-colors duration-300 mt-auto`}
@@ -193,49 +186,7 @@ export default function Home() {
       <section id="pricing" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
-              <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-500/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">Accountability Partner</h3>
-              <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$150<span className="text-text-secondary">/mo</span></p>
-                <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
-                <p className="text-sm text-purple-500 mt-1">2-week free trial, no credit card required</p>
-              </div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Daily momentum check-ins
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Weekly strategy & planning
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Progress tracking & metrics
-                </li>
-              </ul>
-              <div className="mt-auto">
-                <button 
-                  onClick={() => setIsContactModalOpen(true)}
-                  className="w-full bg-purple-500 text-text-primary py-3 rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-
+          <div className="grid md:grid-cols-1 gap-8 max-w-5xl mx-auto">
             <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
               <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors duration-300">
                 <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -272,52 +223,6 @@ export default function Home() {
                 <button 
                   onClick={() => setIsContactModalOpen(true)}
                   className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-teal-900/20 p-8 rounded-2xl shadow-lg border-2 border-teal-500 hover:border-teal-400 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-teal-500 text-text-primary px-4 py-1 rounded-full text-sm font-medium">Best Value</span>
-              </div>
-              <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-teal-500/30 transition-colors duration-300">
-                <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">All Services</h3>
-              <div className="mb-6">
-                <p className="text-2xl font-bold text-text-primary">$450<span className="text-text-secondary">/mo</span></p>
-                <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
-                <p className="text-sm text-teal-500 mt-1">Save $50/month</p>
-                <p className="text-sm text-teal-500 mt-1">2-week free trial, no credit card required</p>
-              </div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  All features included
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Priority support
-                </li>
-                <li className="flex items-center text-text-secondary text-sm">
-                  <svg className="w-4 h-4 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  Seamless workflow
-                </li>
-              </ul>
-              <div className="mt-auto">
-                <button 
-                  onClick={() => setIsContactModalOpen(true)}
-                  className="w-full bg-teal-500 text-text-primary py-3 rounded-lg hover:bg-teal-600 transition-all duration-300 transform hover:scale-105"
                 >
                   Get Started
                 </button>

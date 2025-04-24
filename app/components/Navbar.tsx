@@ -13,7 +13,6 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const services = [
-    { name: 'Accountability Partner', href: '/services/accountability' },
     { name: 'Tech Assistant', href: '/services/tech' }
   ];
 

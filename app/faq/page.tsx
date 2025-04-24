@@ -10,11 +10,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "I offer two main services: Accountability Partner for daily check-ins and progress tracking, and Tech Assistant for hands-on technical support. You can also get all services combined for the best value at $450/month."
-    },
-    {
-      question: "How does the Accountability Partner service work?",
-      answer: "The Accountability Partner service includes daily follow-ups, task management, 1-1 weekly calls, and progress tracking. We'll work together to maintain momentum and ensure consistent progress in building your business."
+      answer: "I offer the Tech Assistant service, providing hands-on technical support to help you build and optimize your online business. This includes implementation support, technical research, vendor selection, and ongoing technical assistance."
     },
     {
       question: "What kind of technical support do you provide?",
@@ -22,11 +18,11 @@ export default function FAQ() {
     },
     {
       question: "What's your pricing structure?",
-      answer: "I offer transparent pricing: Accountability Partner at $150/month, Tech Assistant at $350/month, and All Services combined at $450/month (saving you $50/month). All plans include a 2-week free trial with no credit card required."
+      answer: "I offer transparent pricing: Tech Assistant at $350/month. The plan includes a 2-week free trial with no credit card required."
     },
     {
       question: "How do I get started?",
-      answer: "You can get started by booking a free call through the contact modal. We'll discuss your needs and determine which service is the best fit for you. From there, we'll set up your account and begin working together."
+      answer: "You can get started by booking a free call through the contact modal. We'll discuss your needs and determine how I can best support your technical requirements. From there, we'll set up your account and begin working together."
     },
     {
       question: "What's your availability?",
