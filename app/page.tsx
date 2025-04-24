@@ -59,9 +59,9 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Services</h2>
+            <h2 className="text-3xl font-bold mb-4 text-text-primary">Premium Service</h2>
             <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-              Tailored solutions to help you build and grow your business. Start with a 2-week free trial, no credit card required.
+              Tailored solution to help you build and grow your business. Start with a 2-week free trial, no credit card required.
             </p>
           </motion.div>
 
