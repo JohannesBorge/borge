@@ -124,7 +124,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-text-primary">Influence Development</h3>
-                <p className="text-text-secondary">Help shape the future of these services with your feedback and needs.</p>
+                <p className="text-text-secondary">Help shape the future of this service with your feedback and needs.</p>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
