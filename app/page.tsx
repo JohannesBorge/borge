@@ -68,7 +68,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-4xl mx-auto">
             {[
               {
-                name: "Tech Assistant",
+                name: "AI Assistant",
                 title: "Build faster. Skip the tech overwhelm.",
                 description: "Receive hands-on technical support and guidance to build, optimize, and scale your online business efficiently.",
                 href: "/services/tech",
@@ -193,7 +193,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-text-primary">Tech Assistant</h3>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">AI Assistant</h3>
               <div className="mb-6">
                 <p className="text-2xl font-bold text-text-primary">$350<span className="text-text-secondary">/mo</span></p>
                 <p className="text-sm text-text-secondary mt-2">Introduction Price</p>

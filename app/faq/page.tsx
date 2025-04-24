@@ -10,15 +10,15 @@ export default function FAQ() {
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "I offer the Tech Assistant service, providing hands-on technical support to help you build and optimize your online business. This includes implementation support, technical research, vendor selection, and ongoing technical assistance."
+      answer: "I offer the AI Assistant service, providing hands-on technical support to help you build and optimize your online business. This includes implementation support, technical research, vendor selection, and ongoing technical assistance."
     },
     {
       question: "What kind of technical support do you provide?",
-      answer: "As a Tech Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, and ongoing technical support. I work with you to build and maintain your tech stack using AI-powered tools."
+      answer: "As an AI Assistant, I provide hands-on implementation support, technical research and solutions, vendor selection and setup, and ongoing technical support. I work with you to build and maintain your tech stack using AI-powered tools."
     },
     {
       question: "What's your pricing structure?",
-      answer: "I offer transparent pricing: Tech Assistant at $350/month. The plan includes a 2-week free trial with no credit card required."
+      answer: "I offer transparent pricing: AI Assistant at $350/month. The plan includes a 2-week free trial with no credit card required."
     },
     {
       question: "How do I get started?",
