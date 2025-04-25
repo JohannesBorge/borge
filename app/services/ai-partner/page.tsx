@@ -139,9 +139,14 @@ export default function TechAssistant() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-surface rounded-2xl p-8 text-center hover:-translate-y-2 hover:shadow-lg transition-all duration-300"
+              className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full"
             >
-              <h3 className="text-2xl font-bold mb-4">AI Partner</h3>
+              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">AI Partner</h3>
               <div className="text-4xl font-bold text-orange-500">$350<span className="text-xl text-text-secondary">/month</span></div>
               <p className="text-sm text-text-secondary mt-2">Introduction Price</p>
               <p className="text-sm text-orange-500 mt-1">2-week free trial, no credit card required</p>
