@@ -80,7 +80,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`bg-surface p-8 rounded-2xl border border-border transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full group max-w-2xl mx-auto ${
+                className={`bg-surface p-8 rounded-2xl border border-border transition-all duration-300 hover:-translate-y-2 flex flex-col h-full max-w-2xl mx-auto ${
                   service.color === 'purple' ? 'hover:border-purple-500' :
                   service.color === 'orange' ? 'hover:border-orange-500' :
                   'hover:border-blue-500'
@@ -116,7 +116,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="bg-surface p-6 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-surface p-6 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 hover:-translate-y-2"
               >
                 <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-teal-500/30 transition-colors duration-300">
                   <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -130,7 +130,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="bg-surface p-6 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-surface p-6 rounded-2xl border border-border hover:border-teal-500 transition-all duration-300 hover:-translate-y-2"
               >
                 <div className="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:bg-teal-500/30 transition-colors duration-300">
                   <svg className="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -187,7 +187,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
           <div className="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">
-            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 hover:-translate-y-2 flex flex-col h-full">
               <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors duration-300">
                 <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
