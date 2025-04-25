@@ -13,7 +13,6 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const services = [
-    { name: 'AI Assistant', href: '/services/tech' },
     { name: 'AI Partner', href: '/services/ai-partner' }
   ];
 

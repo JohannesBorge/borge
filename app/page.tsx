@@ -68,10 +68,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-4xl mx-auto">
             {[
               {
-                name: "AI Assistant",
+                name: "AI Partner",
                 title: "Build faster. Skip the tech overwhelm.",
                 description: "Receive hands-on technical support and guidance to build, optimize, and scale your online business efficiently.",
-                href: "/services/tech",
+                href: "/services/ai-partner",
                 color: "orange"
               }
             ].map((service, index) => (

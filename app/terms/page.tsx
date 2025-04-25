@@ -28,7 +28,7 @@ export default function TermsOfService() {
               We provide various services including but not limited to:
             </p>
             <ul className="list-disc pl-6">
-              <li>AI Assistant</li>
+              <li>AI Partner</li>
             </ul>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">3. User Responsibilities</h2>
