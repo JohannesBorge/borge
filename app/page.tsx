@@ -116,7 +116,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-text-primary animate-fade-in">Limited Pilot Program</h2>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              I'm currently accepting 10 pilot customers to help shape and refine this service. As a pilot customer, you'll get:
+              I'm currently accepting 10 pilot customers to help shape and refine th AI Partner service. As a pilot customer, you'll get:
             </p>
             <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-2xl mx-auto">
               <motion.div
