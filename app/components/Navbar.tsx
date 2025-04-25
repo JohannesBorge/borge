@@ -13,7 +13,8 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const services = [
-    { name: 'AI Partner', href: '/services/ai-partner' }
+    { name: 'AI Partner', href: '/services/ai-partner' },
+    { name: 'AI Course', href: '/services/ai-course' }
   ];
 
   const navItems = [
