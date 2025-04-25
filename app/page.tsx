@@ -36,7 +36,7 @@ export default function Home() {
               You Need Momentum.
             </h1>
             <p className="text-xl text-text-secondary mb-8 animate-fade-in-up">
-              For entrepreneurs transitioning to online business. I combine daily accountability and hands-on technical support to help you build your digital presence with confidence.
+              For entrepreneurs transitioning to online business. I combine AI-powered tools and hands-on support to help you build your digital presence with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
               <button 
