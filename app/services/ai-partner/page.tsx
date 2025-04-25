@@ -42,7 +42,7 @@ export default function TechAssistant() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-surface p-8 rounded-2xl border border-border"
+              className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 hover:-translate-y-2"
             >
               <h3 className="text-2xl font-bold mb-6">Projects I Can Help With</h3>
               <div className="space-y-6">
@@ -86,7 +86,7 @@ export default function TechAssistant() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="bg-surface p-8 rounded-2xl border border-border"
+              className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 hover:-translate-y-2"
             >
               <h2 className="text-2xl font-bold mb-6">Target Group</h2>
               <div className="space-y-6">
@@ -139,7 +139,7 @@ export default function TechAssistant() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-surface rounded-2xl border border-orange-500 p-8 text-center"
+              className="bg-surface rounded-2xl p-8 text-center hover:-translate-y-2 hover:shadow-lg transition-all duration-300"
             >
               <h3 className="text-2xl font-bold mb-4">AI Partner</h3>
               <div className="text-4xl font-bold text-orange-500">$350<span className="text-xl text-text-secondary">/month</span></div>
