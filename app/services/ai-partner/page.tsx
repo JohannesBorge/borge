@@ -89,26 +89,33 @@ export default function TechAssistant() {
               className="bg-surface p-8 rounded-2xl border border-border"
             >
               <h2 className="text-2xl font-bold mb-6">Target Group</h2>
-              <ul className="space-y-6">
-                {[
-                  "Entrepreneurs transitioning to online business",
-                  "Small business owners looking to leverage AI",
-                  "Startups needing technical implementation support",
-                  "Business owners seeking to automate processes",
-                  "Companies wanting to enhance their digital presence"
-                ].map((feature, index) => (
-                  <motion.li
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
-                    className="flex items-start"
-                  >
-                    <CheckCircleIcon className="h-6 w-6 text-orange-500 mt-1 mr-3 flex-shrink-0" />
-                    <span className="text-text-secondary">{feature}</span>
-                  </motion.li>
-                ))}
-              </ul>
+              <div className="space-y-6">
+                <p className="text-text-secondary mb-4">
+                  I work with entrepreneurs who are transitioning to online business. These are typically:
+                </p>
+                <ul className="space-y-4">
+                  {[
+                    "Founders who have a successful offline business and want to expand online",
+                    "Entrepreneurs with a product or service idea ready to build their digital presence",
+                    "Business owners who need help implementing and managing their tech stack",
+                    "Visionaries who want to leverage AI to streamline their operations"
+                  ].map((feature, index) => (
+                    <motion.li
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
+                      className="flex items-start"
+                    >
+                      <CheckCircleIcon className="h-6 w-6 text-orange-500 mt-1 mr-3 flex-shrink-0" />
+                      <span className="text-text-secondary">{feature}</span>
+                    </motion.li>
+                  ))}
+                </ul>
+                <p className="text-text-secondary mt-6">
+                  With my service, you'll get a dedicated AI Partner who understands your journey and provides hands-on support to help you build, optimize, and scale your online business efficiently.
+                </p>
+              </div>
             </motion.div>
           </div>
         </div>
