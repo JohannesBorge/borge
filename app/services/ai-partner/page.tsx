@@ -97,7 +97,6 @@ export default function TechAssistant() {
                   {[
                     "Founders who have a successful offline business and want to expand online",
                     "Entrepreneurs with a product or service idea ready to build their digital presence",
-                    "Business owners who need help implementing and managing their tech stack",
                     "Visionaries who want to leverage AI to streamline their operations"
                   ].map((feature, index) => (
                     <motion.li
