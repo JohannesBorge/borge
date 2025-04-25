@@ -35,40 +35,14 @@ export default function TechAssistant() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-surface">
+      <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <h2 className="text-3xl font-bold mb-8">What I Do For You</h2>
-              <ul className="space-y-6">
-                {[
-                  "AI-Powered Implementation: I'll help you set up and configure AI tools and technologies for your business needs",
-                  "Ongoing AI Support: Regular check-ins and hands-on help to keep your AI tools running smoothly",
-                  "AI Learning & Training: Guidance on how to effectively use AI tools to maximize your business potential"
-                ].map((feature, index) => (
-                  <motion.li
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
-                    className="flex items-start"
-                  >
-                    <CheckCircleIcon className="h-6 w-6 text-orange-500 mt-1 mr-3 flex-shrink-0" />
-                    <span className="text-text-secondary">{feature}</span>
-                  </motion.li>
-                ))}
-              </ul>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="bg-background p-8 rounded-2xl border border-border"
+              className="bg-surface p-8 rounded-2xl border border-border"
             >
               <h3 className="text-2xl font-bold mb-6">Projects I Can Help With</h3>
               <div className="space-y-6">
@@ -106,6 +80,35 @@ export default function TechAssistant() {
                   </div>
                 </div>
               </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="bg-surface p-8 rounded-2xl border border-border"
+            >
+              <h2 className="text-2xl font-bold mb-6">Target Group</h2>
+              <ul className="space-y-6">
+                {[
+                  "Entrepreneurs transitioning to online business",
+                  "Small business owners looking to leverage AI",
+                  "Startups needing technical implementation support",
+                  "Business owners seeking to automate processes",
+                  "Companies wanting to enhance their digital presence"
+                ].map((feature, index) => (
+                  <motion.li
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
+                    className="flex items-start"
+                  >
+                    <CheckCircleIcon className="h-6 w-6 text-orange-500 mt-1 mr-3 flex-shrink-0" />
+                    <span className="text-text-secondary">{feature}</span>
+                  </motion.li>
+                ))}
+              </ul>
             </motion.div>
           </div>
         </div>
