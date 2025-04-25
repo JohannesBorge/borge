@@ -73,6 +73,13 @@ export default function Home() {
                 description: "Receive hands-on technical support and guidance to build, optimize, and scale your online business efficiently.",
                 href: "/services/ai-partner",
                 color: "orange"
+              },
+              {
+                name: "AI Course",
+                title: "Master AI for your business. Coming Soon.",
+                description: "A comprehensive course designed to help entrepreneurs leverage AI tools and technologies to build and grow their online business.",
+                href: "/services/ai-course",
+                color: "orange"
               }
             ].map((service, index) => (
               <motion.div
@@ -186,8 +193,8 @@ export default function Home() {
       <section id="pricing" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12 text-text-primary animate-fade-in">Simple, Transparent Pricing</h2>
-          <div className="grid md:grid-cols-1 gap-8 max-w-2xl mx-auto">
-            <div className="bg-surface p-8 rounded-2xl border border-border hover:border-orange-500 transition-all duration-300 hover:-translate-y-2 flex flex-col h-full">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
               <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors duration-300">
                 <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -225,6 +232,47 @@ export default function Home() {
                   className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
                 >
                   Get Started
+                </button>
+              </div>
+            </div>
+            <div className="bg-surface p-8 rounded-2xl shadow-sm border border-border hover:border-orange-500 transition-all duration-300 transform hover:-translate-y-2 flex flex-col h-full group">
+              <div className="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500/30 transition-colors duration-300">
+                <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-text-primary">AI Course</h3>
+              <div className="text-4xl font-bold text-orange-500">Coming Soon</div>
+              <div className="mb-6">
+                <p className="text-sm text-text-secondary mt-2">Comprehensive AI Training</p>
+                <p className="text-sm text-orange-500 mt-1">Join the waitlist for early access</p>
+              </div>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  AI Fundamentals
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Practical Implementation
+                </li>
+                <li className="flex items-center text-text-secondary text-sm">
+                  <svg className="w-4 h-4 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  Business Growth Strategies
+                </li>
+              </ul>
+              <div className="mt-auto">
+                <button 
+                  onClick={() => setIsContactModalOpen(true)}
+                  className="w-full bg-orange-500 text-text-primary py-3 rounded-lg hover:bg-orange-600 transition-all duration-300 transform hover:scale-105"
+                >
+                  Join Waitlist
                 </button>
               </div>
             </div>
