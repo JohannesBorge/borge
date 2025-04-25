@@ -65,7 +65,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
                 name: "AI Partner",
@@ -87,7 +87,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`bg-surface p-8 rounded-2xl border border-border transition-all duration-300 hover:-translate-y-2 flex flex-col h-full max-w-2xl mx-auto ${
+                className={`bg-surface p-8 rounded-2xl border border-border transition-all duration-300 hover:-translate-y-2 flex flex-col h-full group ${
                   service.color === 'purple' ? 'hover:border-purple-500' :
                   service.color === 'orange' ? 'hover:border-orange-500' :
                   'hover:border-blue-500'
