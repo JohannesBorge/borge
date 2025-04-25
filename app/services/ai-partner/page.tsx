@@ -169,8 +169,8 @@ export default function TechAssistant() {
             </p>
             <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden">
               <iframe
-                src="https://www.youtube.com/embed/GYYBTHBvncc?start=1"
-                title="Tech Assistant VSL"
+                src="https://www.youtube.com/embed/-MaTq-xP77M?start=1"
+                title="The Power of AI"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="absolute top-0 left-0 w-full h-full"
