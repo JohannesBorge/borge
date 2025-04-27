@@ -170,8 +170,11 @@ export default function Home() {
               <p className="text-text-secondary mb-4">
                 I've been where you are—transitioning to online business, juggling ideas, and trying to make things work. Through my journey as a solo founder, I've learned that what we really need isn't more ideas or tools, but focused momentum and real support.
               </p>
-              <p className="text-text-secondary">
+              <p className="text-text-secondary mb-4">
                 That's why I created this service. Not to add to the noise, but to give you what I wish I had: clear guidance, technical know-how, and someone who truly understands the journey of building an online business. Let's build something meaningful together.
+              </p>
+              <p className="text-text-secondary">
+                Starting September 15th, I'll be studying Computer Science at <a href="https://www.opit.com/courses/computer-science-bachelor/" target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:text-teal-400 transition-colors duration-300">OPIT</a>, further enhancing my technical expertise to better serve you.
               </p>
             </div>
             <div className="relative aspect-square animate-fade-in-left">
