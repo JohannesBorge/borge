@@ -29,10 +29,6 @@ export default function FAQ() {
       answer: "You can get started by clicking the 'Contact me' button or 'Start Now' in the navigation. We'll discuss your needs and determine how I can best support you. For the AI Course, you can join the waitlist to be notified when it launches."
     },
     {
-      question: "What's your availability?",
-      answer: "I'm available Monday through Friday, with response times typically within 24 hours. For urgent matters, you can reach me through WhatsApp or phone call for faster response."
-    },
-    {
       question: "What makes your services different?",
       answer: "Unlike traditional consulting, I provide hands-on implementation support and daily accountability. I work alongside you to build your business, not just give advice. My services are specifically designed for entrepreneurs transitioning to online business, combining AI-powered tools with personalized support."
     },
